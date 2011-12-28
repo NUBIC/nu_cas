@@ -170,7 +170,6 @@
 		0056D1E114ABC9E200F0B4DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0039D46714ABB20B00DB9B7A /* Foundation.framework */; };
 		0056D1F614ABCAFC00F0B4DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0056D1F014ABCAFC00F0B4DB /* InfoPlist.strings */; };
 		0056D1F714ABCAFC00F0B4DB /* NUCasTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0056D1F214ABCAFC00F0B4DB /* NUCasTests-Info.plist */; };
-		0056D1F814ABCAFC00F0B4DB /* NUCasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0056D1F514ABCAFC00F0B4DB /* NUCasTests.m */; };
 		0056D1FB14ABCD5400F0B4DB /* NUCasConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 0056D1FA14ABCD5400F0B4DB /* NUCasConfiguration.m */; };
 /* End PBXBuildFile section */
 
@@ -353,8 +352,6 @@
 		0056D1F114ABCAFC00F0B4DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0056D1F214ABCAFC00F0B4DB /* NUCasTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NUCasTests-Info.plist"; sourceTree = "<group>"; };
 		0056D1F314ABCAFC00F0B4DB /* NUCasTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NUCasTests-Prefix.pch"; sourceTree = "<group>"; };
-		0056D1F414ABCAFC00F0B4DB /* NUCasTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NUCasTests.h; sourceTree = "<group>"; };
-		0056D1F514ABCAFC00F0B4DB /* NUCasTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NUCasTests.m; sourceTree = "<group>"; };
 		0056D1F914ABCD5400F0B4DB /* NUCasConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NUCasConfiguration.h; sourceTree = "<group>"; };
 		0056D1FA14ABCD5400F0B4DB /* NUCasConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NUCasConfiguration.m; sourceTree = "<group>"; };
 		00F7134514ABBFE500DDEA0F /* UIViewController-Cas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController-Cas.h"; sourceTree = "<group>"; };
@@ -732,8 +729,6 @@
 				0056D1F014ABCAFC00F0B4DB /* InfoPlist.strings */,
 				0056D1F214ABCAFC00F0B4DB /* NUCasTests-Info.plist */,
 				0056D1F314ABCAFC00F0B4DB /* NUCasTests-Prefix.pch */,
-				0056D1F414ABCAFC00F0B4DB /* NUCasTests.h */,
-				0056D1F514ABCAFC00F0B4DB /* NUCasTests.m */,
 				0056D1F914ABCD5400F0B4DB /* NUCasConfiguration.h */,
 				0056D1FA14ABCD5400F0B4DB /* NUCasConfiguration.m */,
 			);
@@ -1035,7 +1030,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0056D1F814ABCAFC00F0B4DB /* NUCasTests.m in Sources */,
 				0056D1FB14ABCD5400F0B4DB /* NUCasConfiguration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
