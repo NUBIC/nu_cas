@@ -8,16 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
-@interface CasConfiguration : NSObject {
-@private
-    NSURL *_casURL;
-    NSURL *_receiveURL;
-    NSURL *_retrieveURL;
-}
+@interface CasConfiguration : NSObject
 
-@property(nonatomic,retain) NSURL *casURL;
-@property(nonatomic,retain) NSURL *receiveURL;
-@property(nonatomic,retain) NSURL *retrieveURL;
+#pragma mark properties
+
+@property(nonatomic,retain) NSURL* casURL;
+
+@property(nonatomic,retain) NSURL* receiveURL;
+
+@property(nonatomic,retain) NSURL* retrieveURL;
+
+#pragma mark methods
 
 - (id)initWithCasURL:(NSString*)casURL;
 

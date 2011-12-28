@@ -8,6 +8,14 @@
 
 #import "CasConfiguration.h"
 
+@interface CasConfiguration () {
+@private
+    NSURL* _casURL;
+    NSURL* _receiveURL;
+    NSURL* _retrieveURL;
+}
+@end
+
 @implementation CasConfiguration 
 
 @synthesize casURL=_casURL;
@@ -45,6 +53,7 @@
     [_casURL release];
     [_receiveURL release];
     [_retrieveURL release];
+    [super dealloc];
 }
 
 @end
