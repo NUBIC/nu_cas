@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0039D2E314ABA89600DB9B7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0039D2E214ABA89600DB9B7A /* Foundation.framework */; };
+		0039D2E914ABA89600DB9B7A /* NUCas.m in Sources */ = {isa = PBXBuildFile; fileRef = 0039D2E814ABA89600DB9B7A /* NUCas.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0039D2DF14ABA89600DB9B7A /* libNUCas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNUCas.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0039D2E214ABA89600DB9B7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0039D2E614ABA89600DB9B7A /* NUCas-Prefix.pch */ = {isa = PBXFileReference; path = "NUCas-Prefix.pch"; sourceTree = "<group>"; };
+		0039D2E714ABA89600DB9B7A /* NUCas.h */ = {isa = PBXFileReference; path = NUCas.h; sourceTree = "<group>"; };
+		0039D2E814ABA89600DB9B7A /* NUCas.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NUCas.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0039D2DC14ABA89600DB9B7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0039D2E314ABA89600DB9B7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0039D2D414ABA89600DB9B7A = {
+			isa = PBXGroup;
+			children = (
+				0039D2E414ABA89600DB9B7A /* NUCas */,
+				0039D2E114ABA89600DB9B7A /* Frameworks */,
+				0039D2E014ABA89600DB9B7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0039D2E014ABA89600DB9B7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0039D2DF14ABA89600DB9B7A /* libNUCas.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0039D2E114ABA89600DB9B7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0039D2E214ABA89600DB9B7A /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0039D2E414ABA89600DB9B7A /* NUCas */ = {
+			isa = PBXGroup;
+			children = (
+				0039D2E714ABA89600DB9B7A /* NUCas.h */,
+				0039D2E814ABA89600DB9B7A /* NUCas.m */,
+				0039D2E514ABA89600DB9B7A /* Supporting Files */,
+			);
+			path = NUCas;
+			sourceTree = "<group>";
+		};
+		0039D2E514ABA89600DB9B7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0039D2E614ABA89600DB9B7A /* NUCas-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0039D2DD14ABA89600DB9B7A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0039D2DE14ABA89600DB9B7A /* NUCas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0039D2EC14ABA89600DB9B7A /* Build configuration list for PBXNativeTarget "NUCas" */;
+			buildPhases = (
+				0039D2DB14ABA89600DB9B7A /* Sources */,
+				0039D2DC14ABA89600DB9B7A /* Frameworks */,
+				0039D2DD14ABA89600DB9B7A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NUCas;
+			productName = NUCas;
+			productReference = 0039D2DF14ABA89600DB9B7A /* libNUCas.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0039D2D614ABA89600DB9B7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0039D2D914ABA89600DB9B7A /* Build configuration list for PBXProject "NUCas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0039D2D414ABA89600DB9B7A;
+			productRefGroup = 0039D2E014ABA89600DB9B7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0039D2DE14ABA89600DB9B7A /* NUCas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0039D2DB14ABA89600DB9B7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0039D2E914ABA89600DB9B7A /* NUCas.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0039D2EA14ABA89600DB9B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0039D2EB14ABA89600DB9B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0039D2ED14ABA89600DB9B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NUCas.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NUCas/NUCas-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0039D2EE14ABA89600DB9B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NUCas.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NUCas/NUCas-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0039D2D914ABA89600DB9B7A /* Build configuration list for PBXProject "NUCas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0039D2EA14ABA89600DB9B7A /* Debug */,
+				0039D2EB14ABA89600DB9B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0039D2EC14ABA89600DB9B7A /* Build configuration list for PBXNativeTarget "NUCas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0039D2ED14ABA89600DB9B7A /* Debug */,
+				0039D2EE14ABA89600DB9B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0039D2D614ABA89600DB9B7A /* Project object */;
+}
