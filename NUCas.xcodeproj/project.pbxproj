@@ -169,8 +169,9 @@
 		0056D1DF14ABC9E200F0B4DB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0056D1DE14ABC9E200F0B4DB /* SenTestingKit.framework */; };
 		0056D1E014ABC9E200F0B4DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0039D46514ABB20B00DB9B7A /* UIKit.framework */; };
 		0056D1E114ABC9E200F0B4DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0039D46714ABB20B00DB9B7A /* Foundation.framework */; };
-		0056D1E714ABC9E200F0B4DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0056D1E514ABC9E200F0B4DB /* InfoPlist.strings */; };
-		0056D1EA14ABC9E200F0B4DB /* NUCasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0056D1E914ABC9E200F0B4DB /* NUCasTests.m */; };
+		0056D1F614ABCAFC00F0B4DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0056D1F014ABCAFC00F0B4DB /* InfoPlist.strings */; };
+		0056D1F714ABCAFC00F0B4DB /* NUCasTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0056D1F214ABCAFC00F0B4DB /* NUCasTests-Info.plist */; };
+		0056D1F814ABCAFC00F0B4DB /* NUCasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0056D1F514ABCAFC00F0B4DB /* NUCasTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -350,11 +351,11 @@
 		0056D1D114ABC6D000F0B4DB /* NSURL-Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURL-Additions.m"; path = "../../UIWebViewHttpStatusCodeHandling/UIWebViewHttpStatusCodeHandling/NSURL-Additions.m"; sourceTree = "<group>"; };
 		0056D1DD14ABC9E200F0B4DB /* NUCasTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NUCasTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0056D1DE14ABC9E200F0B4DB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		0056D1E414ABC9E200F0B4DB /* NUCasTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NUCasTests-Info.plist"; sourceTree = "<group>"; };
-		0056D1E614ABC9E200F0B4DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0056D1E814ABC9E200F0B4DB /* NUCasTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NUCasTests.h; sourceTree = "<group>"; };
-		0056D1E914ABC9E200F0B4DB /* NUCasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NUCasTests.m; sourceTree = "<group>"; };
-		0056D1EB14ABC9E200F0B4DB /* NUCasTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NUCasTests-Prefix.pch"; sourceTree = "<group>"; };
+		0056D1F114ABCAFC00F0B4DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0056D1F214ABCAFC00F0B4DB /* NUCasTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NUCasTests-Info.plist"; sourceTree = "<group>"; };
+		0056D1F314ABCAFC00F0B4DB /* NUCasTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NUCasTests-Prefix.pch"; sourceTree = "<group>"; };
+		0056D1F414ABCAFC00F0B4DB /* NUCasTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NUCasTests.h; sourceTree = "<group>"; };
+		0056D1F514ABCAFC00F0B4DB /* NUCasTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NUCasTests.m; sourceTree = "<group>"; };
 		00F7134514ABBFE500DDEA0F /* UIViewController-Cas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController-Cas.h"; sourceTree = "<group>"; };
 		00F7134614ABBFE500DDEA0F /* UIViewController-Cas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController-Cas.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -402,13 +403,13 @@
 		0039D2D414ABA89600DB9B7A = {
 			isa = PBXGroup;
 			children = (
+				0056D1EF14ABCAFC00F0B4DB /* Tests */,
 				0056D1CE14ABC69200F0B4DB /* libz.dylib */,
 				0056D1CC14ABC67F00F0B4DB /* libiconv.dylib */,
 				0039D33114ABB02800DB9B7A /* Vendor */,
 				0039D32F14ABAAC400DB9B7A /* Framework */,
 				0039D30414ABA90A00DB9B7A /* Code */,
 				0039D46B14ABB20B00DB9B7A /* Example */,
-				0056D1E214ABC9E200F0B4DB /* NUCasTests */,
 				0039D46414ABB20B00DB9B7A /* Frameworks */,
 				0039D2E014ABA89600DB9B7A /* Products */,
 			);
@@ -734,24 +735,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0056D1E214ABC9E200F0B4DB /* NUCasTests */ = {
+		0056D1EF14ABCAFC00F0B4DB /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				0056D1E814ABC9E200F0B4DB /* NUCasTests.h */,
-				0056D1E914ABC9E200F0B4DB /* NUCasTests.m */,
-				0056D1E314ABC9E200F0B4DB /* Supporting Files */,
+				0056D1F014ABCAFC00F0B4DB /* InfoPlist.strings */,
+				0056D1F214ABCAFC00F0B4DB /* NUCasTests-Info.plist */,
+				0056D1F314ABCAFC00F0B4DB /* NUCasTests-Prefix.pch */,
+				0056D1F414ABCAFC00F0B4DB /* NUCasTests.h */,
+				0056D1F514ABCAFC00F0B4DB /* NUCasTests.m */,
 			);
-			path = NUCasTests;
-			sourceTree = "<group>";
-		};
-		0056D1E314ABC9E200F0B4DB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0056D1E414ABC9E200F0B4DB /* NUCasTests-Info.plist */,
-				0056D1E514ABC9E200F0B4DB /* InfoPlist.strings */,
-				0056D1EB14ABC9E200F0B4DB /* NUCasTests-Prefix.pch */,
-			);
-			name = "Supporting Files";
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -997,7 +990,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0056D1E714ABC9E200F0B4DB /* InfoPlist.strings in Resources */,
+				0056D1F614ABCAFC00F0B4DB /* InfoPlist.strings in Resources */,
+				0056D1F714ABCAFC00F0B4DB /* NUCasTests-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1047,7 +1041,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0056D1EA14ABC9E200F0B4DB /* NUCasTests.m in Sources */,
+				0056D1F814ABCAFC00F0B4DB /* NUCasTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1078,10 +1072,10 @@
 			name = NUViewController.xib;
 			sourceTree = "<group>";
 		};
-		0056D1E514ABC9E200F0B4DB /* InfoPlist.strings */ = {
+		0056D1F014ABCAFC00F0B4DB /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0056D1E614ABC9E200F0B4DB /* en */,
+				0056D1F114ABCAFC00F0B4DB /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -1212,8 +1206,8 @@
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NUCasTests/NUCasTests-Prefix.pch";
-				INFOPLIST_FILE = "NUCasTests/NUCasTests-Info.plist";
+				GCC_PREFIX_HEADER = "Tests/NUCasTests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/NUCasTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -1227,8 +1221,8 @@
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NUCasTests/NUCasTests-Prefix.pch";
-				INFOPLIST_FILE = "NUCasTests/NUCasTests-Info.plist";
+				GCC_PREFIX_HEADER = "Tests/NUCasTests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/NUCasTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
