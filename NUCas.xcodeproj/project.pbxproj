@@ -144,15 +144,15 @@
 		0039D44914ABB08300DB9B7A /* xpathInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = 0039D41914ABB08300DB9B7A /* xpathInternals.h */; };
 		0039D44A14ABB08300DB9B7A /* xpointer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0039D41A14ABB08300DB9B7A /* xpointer.h */; };
 		0039D44B14ABB08300DB9B7A /* libxml2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0039D41B14ABB08300DB9B7A /* libxml2.a */; };
-		0039D45214ABB0C000DB9B7A /* CasClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 0039D44C14ABB0C000DB9B7A /* CasClient.h */; };
+		0039D45214ABB0C000DB9B7A /* CasClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 0039D44C14ABB0C000DB9B7A /* CasClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0039D45314ABB0C000DB9B7A /* CasClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0039D44D14ABB0C000DB9B7A /* CasClient.m */; };
-		0039D45414ABB0C000DB9B7A /* CasConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 0039D44E14ABB0C000DB9B7A /* CasConfiguration.h */; };
+		0039D45414ABB0C000DB9B7A /* CasConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 0039D44E14ABB0C000DB9B7A /* CasConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0039D45514ABB0C000DB9B7A /* CasConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 0039D44F14ABB0C000DB9B7A /* CasConfiguration.m */; };
-		0039D45614ABB0C000DB9B7A /* CasServiceTicket.h in Headers */ = {isa = PBXBuildFile; fileRef = 0039D45014ABB0C000DB9B7A /* CasServiceTicket.h */; };
+		0039D45614ABB0C000DB9B7A /* CasServiceTicket.h in Headers */ = {isa = PBXBuildFile; fileRef = 0039D45014ABB0C000DB9B7A /* CasServiceTicket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0039D45714ABB0C000DB9B7A /* CasServiceTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0039D45114ABB0C000DB9B7A /* CasServiceTicket.m */; };
-		0039D45A14ABB0CB00DB9B7A /* CasProxyTicket.h in Headers */ = {isa = PBXBuildFile; fileRef = 0039D45814ABB0CB00DB9B7A /* CasProxyTicket.h */; };
+		0039D45A14ABB0CB00DB9B7A /* CasProxyTicket.h in Headers */ = {isa = PBXBuildFile; fileRef = 0039D45814ABB0CB00DB9B7A /* CasProxyTicket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0039D45B14ABB0CB00DB9B7A /* CasProxyTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0039D45914ABB0CB00DB9B7A /* CasProxyTicket.m */; };
-		0039D45D14ABB0D900DB9B7A /* NUCas.h in Headers */ = {isa = PBXBuildFile; fileRef = 0039D45C14ABB0D900DB9B7A /* NUCas.h */; };
+		0039D45D14ABB0D900DB9B7A /* NUCas.h in Headers */ = {isa = PBXBuildFile; fileRef = 0039D45C14ABB0D900DB9B7A /* NUCas.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0039D46614ABB20B00DB9B7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0039D46514ABB20B00DB9B7A /* UIKit.framework */; };
 		0039D46814ABB20B00DB9B7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0039D46714ABB20B00DB9B7A /* Foundation.framework */; };
 		0039D46A14ABB20B00DB9B7A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0039D46914ABB20B00DB9B7A /* CoreGraphics.framework */; };
@@ -161,6 +161,11 @@
 		0039D47614ABB20B00DB9B7A /* NUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0039D47514ABB20B00DB9B7A /* NUAppDelegate.m */; };
 		0039D47914ABB20B00DB9B7A /* NUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0039D47814ABB20B00DB9B7A /* NUViewController.m */; };
 		0039D47C14ABB20B00DB9B7A /* NUViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0039D47A14ABB20B00DB9B7A /* NUViewController.xib */; };
+		0056D1C514ABC3A400F0B4DB /* UIViewController-Cas.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F7134614ABBFE500DDEA0F /* UIViewController-Cas.m */; };
+		0056D1C914ABC61E00F0B4DB /* libNUCas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0039D31814ABA99700DB9B7A /* libNUCas.a */; };
+		0056D1CD14ABC67F00F0B4DB /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0056D1CC14ABC67F00F0B4DB /* libiconv.dylib */; };
+		0056D1CF14ABC69200F0B4DB /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0056D1CE14ABC69200F0B4DB /* libz.dylib */; };
+		0056D1D414ABC6E500F0B4DB /* NSURL-Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0056D1D114ABC6D000F0B4DB /* NSURL-Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -334,6 +339,12 @@
 		0039D47714ABB20B00DB9B7A /* NUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NUViewController.h; sourceTree = "<group>"; };
 		0039D47814ABB20B00DB9B7A /* NUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NUViewController.m; sourceTree = "<group>"; };
 		0039D47B14ABB20B00DB9B7A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NUViewController.xib; sourceTree = "<group>"; };
+		0056D1CC14ABC67F00F0B4DB /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		0056D1CE14ABC69200F0B4DB /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		0056D1D014ABC6D000F0B4DB /* NSURL-Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURL-Additions.h"; path = "../../UIWebViewHttpStatusCodeHandling/UIWebViewHttpStatusCodeHandling/NSURL-Additions.h"; sourceTree = "<group>"; };
+		0056D1D114ABC6D000F0B4DB /* NSURL-Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURL-Additions.m"; path = "../../UIWebViewHttpStatusCodeHandling/UIWebViewHttpStatusCodeHandling/NSURL-Additions.m"; sourceTree = "<group>"; };
+		00F7134514ABBFE500DDEA0F /* UIViewController-Cas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController-Cas.h"; sourceTree = "<group>"; };
+		00F7134614ABBFE500DDEA0F /* UIViewController-Cas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController-Cas.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -354,6 +365,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0056D1CF14ABC69200F0B4DB /* libz.dylib in Frameworks */,
+				0056D1CD14ABC67F00F0B4DB /* libiconv.dylib in Frameworks */,
+				0056D1C914ABC61E00F0B4DB /* libNUCas.a in Frameworks */,
 				0039D46614ABB20B00DB9B7A /* UIKit.framework in Frameworks */,
 				0039D46814ABB20B00DB9B7A /* Foundation.framework in Frameworks */,
 				0039D46A14ABB20B00DB9B7A /* CoreGraphics.framework in Frameworks */,
@@ -366,6 +380,8 @@
 		0039D2D414ABA89600DB9B7A = {
 			isa = PBXGroup;
 			children = (
+				0056D1CE14ABC69200F0B4DB /* libz.dylib */,
+				0056D1CC14ABC67F00F0B4DB /* libiconv.dylib */,
 				0039D33114ABB02800DB9B7A /* Vendor */,
 				0039D32F14ABAAC400DB9B7A /* Framework */,
 				0039D30414ABA90A00DB9B7A /* Code */,
@@ -668,6 +684,10 @@
 		0039D46B14ABB20B00DB9B7A /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				0056D1D014ABC6D000F0B4DB /* NSURL-Additions.h */,
+				0056D1D114ABC6D000F0B4DB /* NSURL-Additions.m */,
+				00F7134514ABBFE500DDEA0F /* UIViewController-Cas.h */,
+				00F7134614ABBFE500DDEA0F /* UIViewController-Cas.m */,
 				0039D47414ABB20B00DB9B7A /* NUAppDelegate.h */,
 				0039D47514ABB20B00DB9B7A /* NUAppDelegate.m */,
 				0039D47714ABB20B00DB9B7A /* NUViewController.h */,
@@ -696,6 +716,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0039D45D14ABB0D900DB9B7A /* NUCas.h in Headers */,
+				0039D45214ABB0C000DB9B7A /* CasClient.h in Headers */,
+				0039D45414ABB0C000DB9B7A /* CasConfiguration.h in Headers */,
+				0039D45614ABB0C000DB9B7A /* CasServiceTicket.h in Headers */,
+				0039D45A14ABB0CB00DB9B7A /* CasProxyTicket.h in Headers */,
 				0039D32714ABA9CE00DB9B7A /* NUCas-Prefix.pch in Headers */,
 				0039D37F14ABB05A00DB9B7A /* aes.h in Headers */,
 				0039D38014ABB05A00DB9B7A /* asn1.h in Headers */,
@@ -827,11 +852,6 @@
 				0039D44814ABB08300DB9B7A /* xpath.h in Headers */,
 				0039D44914ABB08300DB9B7A /* xpathInternals.h in Headers */,
 				0039D44A14ABB08300DB9B7A /* xpointer.h in Headers */,
-				0039D45214ABB0C000DB9B7A /* CasClient.h in Headers */,
-				0039D45414ABB0C000DB9B7A /* CasConfiguration.h in Headers */,
-				0039D45614ABB0C000DB9B7A /* CasServiceTicket.h in Headers */,
-				0039D45A14ABB0CB00DB9B7A /* CasProxyTicket.h in Headers */,
-				0039D45D14ABB0D900DB9B7A /* NUCas.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -927,6 +947,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0056D1D414ABC6E500F0B4DB /* NSURL-Additions.m in Sources */,
+				0056D1C514ABC3A400F0B4DB /* UIViewController-Cas.m in Sources */,
 				0039D47214ABB20B00DB9B7A /* main.m in Sources */,
 				0039D47614ABB20B00DB9B7A /* NUAppDelegate.m in Sources */,
 				0039D47914ABB20B00DB9B7A /* NUViewController.m in Sources */,
@@ -1048,6 +1070,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
 				INFOPLIST_FILE = "Example/Example-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Vendor/cURL\"",
+					"\"$(SRCROOT)/Vendor/libcas\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
@@ -1061,6 +1088,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
 				INFOPLIST_FILE = "Example/Example-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Vendor/cURL\"",
+					"\"$(SRCROOT)/Vendor/libcas\"",
+				);
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 2;
@@ -1087,6 +1119,7 @@
 				0039D32214ABA99700DB9B7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0039D47D14ABB20B00DB9B7A /* Build configuration list for PBXNativeTarget "Example" */ = {
 			isa = XCConfigurationList;
@@ -1095,6 +1128,7 @@
 				0039D47F14ABB20B00DB9B7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

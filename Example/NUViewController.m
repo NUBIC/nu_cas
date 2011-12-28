@@ -7,8 +7,18 @@
 //
 
 #import "NUViewController.h"
+#import "UIViewController-Cas.h"
+#import "NUCas.h"
+
+@interface NUViewController(Private)
+- (void) log:(NSString *)message;
+@end
 
 @implementation NUViewController
+
+@synthesize webView = _webView;
+@synthesize logsTextView = _logsTextView;
+@synthesize url = _url;
 
 - (void)didReceiveMemoryWarning
 {
@@ -18,10 +28,17 @@
 
 #pragma mark - View lifecycle
 
-- (void)viewDidLoad
+- (void) viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    //    NSURL *casURL = [[NSURL alloc]initWithString:@"https://cas.nubic.northwestern.edu/cas?compact"];
+    //    NSURL *casURL = [[NSURL alloc]initWithString:@"https://cas2.nubic.northwestern.edu/cas-staging?compact"];
+    NSURL *casURL = [[NSURL alloc]initWithString:@"http://cas.dev/login?renew=true"];
+    
+    [self loginWithCasBaseURL:casURL webView:self.webView];
+    
+    //    NSURLRequest *req = [NSURLRequest requestWithURL:[NSURL URLWithString:self.url]];
 }
 
 - (void)viewDidUnload
@@ -55,6 +72,30 @@
 {
     // Return YES for supported orientations
     return YES;
+}
+
+- (void)dealloc {
+    [self.webView release];
+    [self.logsTextView release];
+    [self.url release];
+    [super dealloc];
+}
+
+#pragma -
+#pragma Private Methods
+
+- (void) log:(NSString *)message
+{
+    NSString *newText = [self.logsTextView.text stringByAppendingFormat:@"> %@\n", message];
+    [self.logsTextView setText:newText];
+    [self.logsTextView scrollRangeToVisible:NSMakeRange((self.logsTextView.text.length - 2), 1)];
+}
+
+#pragma -
+#pragma Cas Methods
+
+- (void) successfulLogin {
+    NSLog(@"Successful Login!!!");
 }
 
 @end

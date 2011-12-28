@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NUViewController : UIViewController
+@interface NUViewController : UIViewController<UIWebViewDelegate> {
+    UIWebView* _webView;
+    UITextView* _logsTextView;
+    NSString* _url;
+    BOOL _sessionChecked;
+}
+
+@property(nonatomic,retain) IBOutlet UIWebView* webView;
+@property(nonatomic,retain) IBOutlet UITextView* logsTextView;
+@property(nonatomic,retain) NSString* url;
+
+- (void) successfulLogin;
 
 @end
