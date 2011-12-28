@@ -18,7 +18,6 @@
 @synthesize config=_config;
 
 - (id) init {
-    [self release];
     @throw [NSException exceptionWithName:NSInternalInconsistencyException
                 reason:@"-init is not a valid initializer for the class CasClient, please use -initWithConfiguration"
                 userInfo:nil];

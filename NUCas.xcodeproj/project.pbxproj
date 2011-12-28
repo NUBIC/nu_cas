@@ -170,7 +170,6 @@
 		0056D1E114ABC9E200F0B4DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0039D46714ABB20B00DB9B7A /* Foundation.framework */; };
 		0056D1FB14ABCD5400F0B4DB /* CasConfigurationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0056D1FA14ABCD5400F0B4DB /* CasConfigurationTest.m */; };
 		006DA19A14ABD00D00A622B3 /* libNUCas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0039D31814ABA99700DB9B7A /* libNUCas.a */; };
-		006DA1A014ABD0E200A622B3 /* NUCasTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 006DA19E14ABD0E200A622B3 /* NUCasTests-Info.plist */; };
 		006DA1A314ABD1C900A622B3 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0056D1CC14ABC67F00F0B4DB /* libiconv.dylib */; };
 		006DA1A414ABD1D100A622B3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0056D1CE14ABC69200F0B4DB /* libz.dylib */; };
 /* End PBXBuildFile section */
@@ -990,7 +989,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				006DA1A014ABD0E200A622B3 /* NUCasTests-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1117,6 +1115,7 @@
 		0039D32114ABA99700DB9B7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				DSTROOT = /tmp/NUCas.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Code/NUCas/NUCas-Prefix.pch";
@@ -1136,6 +1135,7 @@
 		0039D32214ABA99700DB9B7A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				DSTROOT = /tmp/NUCas.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Code/NUCas/NUCas-Prefix.pch";
@@ -1192,6 +1192,7 @@
 		0056D1ED14ABC9E200F0B4DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
@@ -1207,6 +1208,7 @@
 		0056D1EE14ABC9E200F0B4DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",

@@ -29,7 +29,7 @@
 
 - (id) initWithCas:(CAS *)cas serviceValidateURL:(NSString *)serviceValidateURL serviceURL:(NSString *)serviceURL ticket:(NSString*)ticket pgtReceiveURL:(NSString*)pgtReceiveURL pgtRetrieveURL:(NSString*)pgtRetrieveURL {
     
-    [self initWithCas:cas serviceValidateURL:serviceValidateURL serviceURL:serviceURL ticket:ticket];
+    self = [self initWithCas:cas serviceValidateURL:serviceValidateURL serviceURL:serviceURL ticket:ticket];
     
     if (self) {
         _receiveURL = pgtReceiveURL;
@@ -81,16 +81,5 @@
     return _message == NULL;
 }
 
-- (void) dealloc {
-    [_ticket release];
-    [_serviceValidateURL release];
-    [_serviceURL release];
-    [_receiveURL release];
-    [_retrieveURL release];
-    [_principal release];
-    [_message release];
-    [_pgt release];
-    [super dealloc];
-}
 
 @end

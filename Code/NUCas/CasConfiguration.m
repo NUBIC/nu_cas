@@ -49,11 +49,4 @@
     return self;
 }
 
-- (void) dealloc {
-    [_casURL release];
-    [_receiveURL release];
-    [_retrieveURL release];
-    [super dealloc];
-}
-
 @end

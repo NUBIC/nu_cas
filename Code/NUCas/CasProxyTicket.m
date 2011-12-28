@@ -58,13 +58,4 @@
     return _message == NULL;
 }
 
-- (void) dealloc {
-    [_proxyURL release];
-    [_serviceURL release];
-    [_proxyGrantingTicket release];
-    [_proxyTicket release];
-    [_message release];
-    [super dealloc];
-}
-
 @end
