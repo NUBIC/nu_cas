@@ -1,376 +1,0 @@
-TNUCas
-v4
-r1
-cCheck dependencies
-cProcessPCH /var/folders/1E/1ENnMmibGw8nAahKnj7bTU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/NUCas-Prefix-dztvxkleexpvibbrvhbrqfhlhggn/NUCas-Prefix.pch.pth Code/NUCas/NUCas-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/CasClient.o /Users/johndzak/Code/NUCas/Code/NUCas/CasClient.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/CasConfiguration.o /Users/johndzak/Code/NUCas/Code/NUCas/CasConfiguration.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/CasProxyTicket.o /Users/johndzak/Code/NUCas/Code/NUCas/CasProxyTicket.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/CasServiceTicket.o /Users/johndzak/Code/NUCas/Code/NUCas/CasServiceTicket.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/johndzak/Code/NUCas/build/Debug-iphonesimulator/libNUCas.a normal i386
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
-c000000004EB2E0030000000000000110
-t1320345603
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004E72F2960000000000353830
-t1316156054
-s3487792
-
-N/Users/johndzak/Code/NUCas/Code/NUCas/CasClient.h
-c000000004EFB66D70000000000000332
-t1325098711
-s818
-
-N/Users/johndzak/Code/NUCas/Code/NUCas/CasClient.m
-c000000004EFB66D70000000000000713
-t1325098711
-s1811
-
-N/Users/johndzak/Code/NUCas/Code/NUCas/CasConfiguration.h
-c000000004EFB66D700000000000001FD
-t1325098711
-s509
-
-N/Users/johndzak/Code/NUCas/Code/NUCas/CasConfiguration.m
-c000000004EFB66D7000000000000042E
-t1325098711
-s1070
-
-N/Users/johndzak/Code/NUCas/Code/NUCas/CasProxyTicket.h
-c000000004EFB66D70000000000000314
-t1325098711
-s788
-
-N/Users/johndzak/Code/NUCas/Code/NUCas/CasProxyTicket.m
-c000000004EFB66D70000000000000847
-t1325098711
-s2119
-
-N/Users/johndzak/Code/NUCas/Code/NUCas/CasServiceTicket.h
-c000000004EFB66D70000000000000461
-t1325098711
-s1121
-
-N/Users/johndzak/Code/NUCas/Code/NUCas/CasServiceTicket.m
-c000000004EFB66D70000000000000BF0
-t1325098711
-s3056
-
-N/Users/johndzak/Code/NUCas/Code/NUCas/NUCas-Prefix.pch
-c000000004EFB72170000000000000097
-t1325101591
-s151
-
-N/Users/johndzak/Code/NUCas/Code/NUCas/NUCas.m
-c000000004EFB7217000000000000012E
-t1325101591
-s302
-
-N/Users/johndzak/Code/NUCas/NUCas/NUCas-Prefix.pch
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/johndzak/Code/NUCas/Vendor/OpenSSL/libcrypto.a
-c000000004EFB55E600000000007B794C
-t1325094374
-s8091980
-
-N/Users/johndzak/Code/NUCas/Vendor/OpenSSL/libssl.a
-c000000004EFB55E600000000001464B4
-t1325094374
-s1336500
-
-N/Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a
-c000000004EFB55E60000000000156A4C
-t1325094374
-s1403468
-
-N/Users/johndzak/Code/NUCas/Vendor/libcas/Headers/cas.h
-c000000004EFB55E60000000000000F4A
-t1325094374
-s3914
-
-N/Users/johndzak/Code/NUCas/Vendor/libcas/libcas.a
-c000000004EFB55E60000000000008A10
-t1325094374
-s35344
-
-N/Users/johndzak/Code/NUCas/Vendor/libxml2/libxml2.a
-c000000004EFB55E600000000006217CC
-t1325094374
-s6428620
-
-N/Users/johndzak/Code/NUCas/build/Debug-iphonesimulator/libNUCas.a
-t1325103694
-s5495376
-
-N/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/CasClient.o
-t1325103694
-s12008
-
-N/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/CasConfiguration.o
-t1325103694
-s9840
-
-N/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/CasProxyTicket.o
-t1325103694
-s12000
-
-N/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/CasServiceTicket.o
-t1325103694
-s15020
-
-N/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/NUCas.LinkFileList
-c000000004EFB7A4E00000000000001CF
-t1325103694
-s463
-
-N/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/NUCas.o
-t2
-s0
-
-N/var/folders/1E/1ENnMmibGw8nAahKnj7bTU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/NUCas-Prefix-dsvwgpbfjkhukzcwaokyuoofjxae/NUCas-Prefix.pch.pth
-t2
-s0
-
-N/var/folders/1E/1ENnMmibGw8nAahKnj7bTU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/NUCas-Prefix-dztvxkleexpvibbrvhbrqfhlhggn/NUCas-Prefix.pch.pth
-t1325101715
-s2445792
-
-CBuild AST from /Users/johndzak/Code/NUCas/Code/NUCas/CasClient.m
-r0
-
-CBuild AST from /Users/johndzak/Code/NUCas/Code/NUCas/CasConfiguration.m
-r0
-
-CBuild AST from /Users/johndzak/Code/NUCas/Code/NUCas/CasProxyTicket.m
-r0
-
-CBuild AST from /Users/johndzak/Code/NUCas/Code/NUCas/CasServiceTicket.m
-r0
-
-CBuild AST from /Users/johndzak/Code/NUCas/Code/NUCas/NUCas.m
-r0
-
-CCheck dependencies
-r0
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesfa7e961eb2abb441^e8bf971eb2abb441^---0#1#0#--18"Check dependencies36"EF846F08-40CE-40A6-8925-441989DC4299-
-
-CCompileC build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/CasClient.o /Users/johndzak/Code/NUCas/Code/NUCas/CasClient.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s346796494.628706
-e346796494.713134
-r1
-xCompileC
-xbuild/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/CasClient.o
-x/Users/johndzak/Code/NUCas/Code/NUCas/CasClient.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/johndzak/Code/NUCas/Code/NUCas/CasClient.m:36:9: warning: implicit declaration of function 'cas_set_ssl_validate_server' is invalid in C99 [-Wimplicit-function-declaration,3]
-o         cas_set_ssl_validate_server([self cas],1);
-o         ^
-o/Users/johndzak/Code/NUCas/Code/NUCas/CasClient.m:37:9: warning: implicit declaration of function 'cas_set_ssl_ca' is invalid in C99 [-Wimplicit-function-declaration,3]
-o         cas_set_ssl_ca([self cas],"/Users/johndzak/cacerts/cacert.pem");
-o         ^
-o2 warnings generated.
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/johndzak/Code/NUCas/Code/NUCas/CasClient.md907a1ceb1abb441^2191b6ceb1abb441^-521"/Users/johndzak/Code/NUCas/Code/NUCas/CasClient.m:36:9: warning: implicit declaration of function 'cas_set_ssl_validate_server' is invalid in C99 [-Wimplicit-function-declaration,3]         cas_set_ssl_validate_server([self cas],1);         ^/Users/johndzak/Code/NUCas/Code/NUCas/CasClient.m:37:9: warning: implicit declaration of function 'cas_set_ssl_ca' is invalid in C99 [-Wimplicit-function-declaration,3]         cas_set_ssl_ca([self cas],"/Users/johndzak/cacerts/cacert.pem");         ^2 warnings generated.2(21%IDEActivityLogMessage2@80"Implicit declaration of function 'cas_set_ssl_validate_server' is invalid in C99-346796494#0#182#-1#-23%DVTTextDocumentLocation3@65"file://localhost/Users/johndzak/Code/NUCas/Code/NUCas/CasClient.m0000000000000000^35#8#35#8#18446744073709551615#0#14"Semantic Issue--2@67"Implicit declaration of function 'cas_set_ssl_ca' is invalid in C99-346796494#245#169#-1#-3@65"file://localhost/Users/johndzak/Code/NUCas/Code/NUCas/CasClient.m0000000000000000^36#8#36#8#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@65"file://localhost/Users/johndzak/Code/NUCas/Code/NUCas/CasClient.m0000000000000000^2455"CompileC build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/CasClient.o Code/NUCas/CasClient.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johndzak/Code/NUCas    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/NUCas-generated-files.hmap -I/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/NUCas-own-target-headers.hmap -I/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/NUCas-all-target-headers.hmap -iquote /Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/NUCas-project-headers.hmap -I/Users/johndzak/Code/NUCas/build/Debug-iphonesimulator/include -I/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/DerivedSources/i386 -I/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/DerivedSources -F/Users/johndzak/Code/NUCas/build/Debug-iphonesimulator -include /var/folders/1E/1ENnMmibGw8nAahKnj7bTU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/NUCas-Prefix-dztvxkleexpvibbrvhbrqfhlhggn/NUCas-Prefix.pch -MMD -MT dependencies -MF /Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/CasClient.d -c /Users/johndzak/Code/NUCas/Code/NUCas/CasClient.m -o /Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/CasClient.o36"FC290C76-8149-4BA3-BFCF-715CF180645C-
-
-CCompileC build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/CasConfiguration.o /Users/johndzak/Code/NUCas/Code/NUCas/CasConfiguration.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s346796494.628715
-e346796494.711214
-r1
-xCompileC
-xbuild/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/CasConfiguration.o
-x/Users/johndzak/Code/NUCas/Code/NUCas/CasConfiguration.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/johndzak/Code/NUCas/Code/NUCas/CasConfiguration.mea07a1ceb1abb441^3c13b6ceb1abb441^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/johndzak/Code/NUCas/Code/NUCas/CasConfiguration.m0000000000000000^2490"CompileC build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/CasConfiguration.o Code/NUCas/CasConfiguration.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johndzak/Code/NUCas    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/NUCas-generated-files.hmap -I/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/NUCas-own-target-headers.hmap -I/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/NUCas-all-target-headers.hmap -iquote /Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/NUCas-project-headers.hmap -I/Users/johndzak/Code/NUCas/build/Debug-iphonesimulator/include -I/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/DerivedSources/i386 -I/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/DerivedSources -F/Users/johndzak/Code/NUCas/build/Debug-iphonesimulator -include /var/folders/1E/1ENnMmibGw8nAahKnj7bTU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/NUCas-Prefix-dztvxkleexpvibbrvhbrqfhlhggn/NUCas-Prefix.pch -MMD -MT dependencies -MF /Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/CasConfiguration.d -c /Users/johndzak/Code/NUCas/Code/NUCas/CasConfiguration.m -o /Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/CasConfiguration.o36"B8573BB5-4530-4794-AB6E-BC952D11DC39-
-
-CCompileC build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/CasProxyTicket.o /Users/johndzak/Code/NUCas/Code/NUCas/CasProxyTicket.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s346796494.628755
-e346796494.714965
-r1
-xCompileC
-xbuild/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/CasProxyTicket.o
-x/Users/johndzak/Code/NUCas/Code/NUCas/CasProxyTicket.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/johndzak/Code/NUCas/Code/NUCas/CasProxyTicket.m:39:46:{39:46-39:53}: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [3]
-o         CAS_CODE code = cas_cas2_proxy(_cas, proxy_c, service_c, pgt_c);
-o                                              ^~~~~~~
-o/Users/johndzak/Code/NUCas/Vendor/libcas/Headers/cas.h:76:42: note: passing argument to parameter 'cas2_proxy_baseurl' here [3]
-o CAS_CODE cas_cas2_proxy( CAS* cas, char* cas2_proxy_baseurl, char* escaped_service, char* proxy_granting_ticket);
-o                                          ^
-o/Users/johndzak/Code/NUCas/Code/NUCas/CasProxyTicket.m:39:55:{39:55-39:64}: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [3]
-o         CAS_CODE code = cas_cas2_proxy(_cas, proxy_c, service_c, pgt_c);
-o                                                       ^~~~~~~~~
-o/Users/johndzak/Code/NUCas/Vendor/libcas/Headers/cas.h:76:68: note: passing argument to parameter 'escaped_service' here [3]
-o CAS_CODE cas_cas2_proxy( CAS* cas, char* cas2_proxy_baseurl, char* escaped_service, char* proxy_granting_ticket);
-o                                                                    ^
-o/Users/johndzak/Code/NUCas/Code/NUCas/CasProxyTicket.m:39:66:{39:66-39:71}: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [3]
-o         CAS_CODE code = cas_cas2_proxy(_cas, proxy_c, service_c, pgt_c);
-o                                                                  ^~~~~
-o/Users/johndzak/Code/NUCas/Vendor/libcas/Headers/cas.h:76:91: note: passing argument to parameter 'proxy_granting_ticket' here [3]
-o CAS_CODE cas_cas2_proxy( CAS* cas, char* cas2_proxy_baseurl, char* escaped_service, char* proxy_granting_ticket);
-o                                                                                           ^
-o3 warnings generated.
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/johndzak/Code/NUCas/Code/NUCas/CasProxyTicket.mc009a1ceb1abb441^8908b7ceb1abb441^-1857"/Users/johndzak/Code/NUCas/Code/NUCas/CasProxyTicket.m:39:46:{39:46-39:53}: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [3]         CAS_CODE code = cas_cas2_proxy(_cas, proxy_c, service_c, pgt_c);                                              ^~~~~~~/Users/johndzak/Code/NUCas/Vendor/libcas/Headers/cas.h:76:42: note: passing argument to parameter 'cas2_proxy_baseurl' here [3] CAS_CODE cas_cas2_proxy( CAS* cas, char* cas2_proxy_baseurl, char* escaped_service, char* proxy_granting_ticket);                                          ^/Users/johndzak/Code/NUCas/Code/NUCas/CasProxyTicket.m:39:55:{39:55-39:64}: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [3]         CAS_CODE code = cas_cas2_proxy(_cas, proxy_c, service_c, pgt_c);                                                       ^~~~~~~~~/Users/johndzak/Code/NUCas/Vendor/libcas/Headers/cas.h:76:68: note: passing argument to parameter 'escaped_service' here [3] CAS_CODE cas_cas2_proxy( CAS* cas, char* cas2_proxy_baseurl, char* escaped_service, char* proxy_granting_ticket);                                                                    ^/Users/johndzak/Code/NUCas/Code/NUCas/CasProxyTicket.m:39:66:{39:66-39:71}: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [3]         CAS_CODE code = cas_cas2_proxy(_cas, proxy_c, service_c, pgt_c);                                                                  ^~~~~/Users/johndzak/Code/NUCas/Vendor/libcas/Headers/cas.h:76:91: note: passing argument to parameter 'proxy_granting_ticket' here [3] CAS_CODE cas_cas2_proxy( CAS* cas, char* cas2_proxy_baseurl, char* escaped_service, char* proxy_granting_ticket);                                                                                           ^3 warnings generated.3(21%IDEActivityLogMessage2@72"Passing 'const char *' to parameter of type 'char *' discards qualifiers-346796494#0#162#1(2@55"Passing argument to parameter 'cas2_proxy_baseurl' here-346796494#290#128#-0#-23%DVTTextDocumentLocation3@70"file://localhost/Users/johndzak/Code/NUCas/Vendor/libcas/Headers/cas.h0000000000000000^75#41#75#41#18446744073709551615#0#14"Semantic Issue--1#-3@70"file://localhost/Users/johndzak/Code/NUCas/Code/NUCas/CasProxyTicket.m0000000000000000^38#45#38#45#18446744073709551615#0#14"Semantic Issue1(3@70"file://localhost/Users/johndzak/Code/NUCas/Code/NUCas/CasProxyTicket.m0000000000000000^38#45#38#52#18446744073709551615#0#-2@72"Passing 'const char *' to parameter of type 'char *' discards qualifiers-346796494#577#162#1(2@52"Passing argument to parameter 'escaped_service' here-346796494#878#125#-0#-3@70"file://localhost/Users/johndzak/Code/NUCas/Vendor/libcas/Headers/cas.h0000000000000000^75#67#75#67#18446744073709551615#0#14"Semantic Issue--1#-3@70"file://localhost/Users/johndzak/Code/NUCas/Code/NUCas/CasProxyTicket.m0000000000000000^38#54#38#54#18446744073709551615#0#14"Semantic Issue1(3@70"file://localhost/Users/johndzak/Code/NUCas/Code/NUCas/CasProxyTicket.m0000000000000000^38#54#38#63#18446744073709551615#0#-2@72"Passing 'const char *' to parameter of type 'char *' discards qualifiers-346796494#1188#162#1(2@58"Passing argument to parameter 'proxy_granting_ticket' here-346796494#1496#131#-0#-3@70"file://localhost/Users/johndzak/Code/NUCas/Vendor/libcas/Headers/cas.h0000000000000000^75#90#75#90#18446744073709551615#0#14"Semantic Issue--1#-3@70"file://localhost/Users/johndzak/Code/NUCas/Code/NUCas/CasProxyTicket.m0000000000000000^38#65#38#65#18446744073709551615#0#14"Semantic Issue1(3@70"file://localhost/Users/johndzak/Code/NUCas/Code/NUCas/CasProxyTicket.m0000000000000000^38#65#38#70#18446744073709551615#0#-0#0#0#-19%DVTDocumentLocation4@70"file://localhost/Users/johndzak/Code/NUCas/Code/NUCas/CasProxyTicket.m0000000000000000^2480"CompileC build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/CasProxyTicket.o Code/NUCas/CasProxyTicket.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johndzak/Code/NUCas    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/NUCas-generated-files.hmap -I/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/NUCas-own-target-headers.hmap -I/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/NUCas-all-target-headers.hmap -iquote /Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/NUCas-project-headers.hmap -I/Users/johndzak/Code/NUCas/build/Debug-iphonesimulator/include -I/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/DerivedSources/i386 -I/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/DerivedSources -F/Users/johndzak/Code/NUCas/build/Debug-iphonesimulator -include /var/folders/1E/1ENnMmibGw8nAahKnj7bTU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/NUCas-Prefix-dztvxkleexpvibbrvhbrqfhlhggn/NUCas-Prefix.pch -MMD -MT dependencies -MF /Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/CasProxyTicket.d -c /Users/johndzak/Code/NUCas/Code/NUCas/CasProxyTicket.m -o /Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/CasProxyTicket.o36"91EF5F32-6EEF-4C7E-B309-2E80D88E16F1-
-
-CCompileC build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/CasServiceTicket.o /Users/johndzak/Code/NUCas/Code/NUCas/CasServiceTicket.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s346796494.628747
-e346796494.714083
-r1
-xCompileC
-xbuild/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/CasServiceTicket.o
-x/Users/johndzak/Code/NUCas/Code/NUCas/CasServiceTicket.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/johndzak/Code/NUCas/Code/NUCas/CasServiceTicket.m:55:20:{55:20-55:30}: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [3]
-o                    validate_c, service_c, ticket_c, 0,receive_c, retrieve_c);
-o                    ^~~~~~~~~~
-o/Users/johndzak/Code/NUCas/Vendor/libcas/Headers/cas.h:72:67: note: passing argument to parameter 'cas2_servicevalidate_baseurl' here [3]
-o CAS_CODE cas_cas2_serviceValidate_proxyTicketing( CAS* cas, char* cas2_servicevalidate_baseurl, char* escaped_service, char* ticket, int renew, char* escaped_pgt_receive_url, char* pgt_retrieve_url);
-o                                                                   ^
-o/Users/johndzak/Code/NUCas/Code/NUCas/CasServiceTicket.m:55:32:{55:32-55:41}: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [3]
-o                    validate_c, service_c, ticket_c, 0,receive_c, retrieve_c);
-o                                ^~~~~~~~~
-o/Users/johndzak/Code/NUCas/Vendor/libcas/Headers/cas.h:72:103: note: passing argument to parameter 'escaped_service' here [3]
-o CAS_CODE cas_cas2_serviceValidate_proxyTicketing( CAS* cas, char* cas2_servicevalidate_baseurl, char* escaped_service, char* ticket, int renew, char* escaped_pgt_receive_url, char* pgt_retrieve_url);
-o                                                                                                       ^
-o/Users/johndzak/Code/NUCas/Code/NUCas/CasServiceTicket.m:55:43:{55:43-55:51}: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [3]
-o                    validate_c, service_c, ticket_c, 0,receive_c, retrieve_c);
-o                                           ^~~~~~~~
-o/Users/johndzak/Code/NUCas/Vendor/libcas/Headers/cas.h:72:126: note: passing argument to parameter 'ticket' here [3]
-o CAS_CODE cas_cas2_serviceValidate_proxyTicketing( CAS* cas, char* cas2_servicevalidate_baseurl, char* escaped_service, char* ticket, int renew, char* escaped_pgt_receive_url, char* pgt_retrieve_url);
-o                                                                                                                              ^
-o/Users/johndzak/Code/NUCas/Code/NUCas/CasServiceTicket.m:55:55:{55:55-55:64}: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [3]
-o                    validate_c, service_c, ticket_c, 0,receive_c, retrieve_c);
-o                                                       ^~~~~~~~~
-o/Users/johndzak/Code/NUCas/Vendor/libcas/Headers/cas.h:72:151: note: passing argument to parameter 'escaped_pgt_receive_url' here [3]
-o CAS_CODE cas_cas2_serviceValidate_proxyTicketing( CAS* cas, char* cas2_servicevalidate_baseurl, char* escaped_service, char* ticket, int renew, char* escaped_pgt_receive_url, char* pgt_retrieve_url);
-o                                                                                                                                                       ^
-o/Users/johndzak/Code/NUCas/Code/NUCas/CasServiceTicket.m:55:66:{55:66-55:76}: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [3]
-o                    validate_c, service_c, ticket_c, 0,receive_c, retrieve_c);
-o                                                                  ^~~~~~~~~~
-o/Users/johndzak/Code/NUCas/Vendor/libcas/Headers/cas.h:72:182: note: passing argument to parameter 'pgt_retrieve_url' here [3]
-o CAS_CODE cas_cas2_serviceValidate_proxyTicketing( CAS* cas, char* cas2_servicevalidate_baseurl, char* escaped_service, char* ticket, int renew, char* escaped_pgt_receive_url, char* pgt_retrieve_url);
-o                                                                                                                                                                                      ^
-o5 warnings generated.
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/johndzak/Code/NUCas/Code/NUCas/CasServiceTicket.m7d09a1ceb1abb441^9aceb6ceb1abb441^-3790"/Users/johndzak/Code/NUCas/Code/NUCas/CasServiceTicket.m:55:20:{55:20-55:30}: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [3]                    validate_c, service_c, ticket_c, 0,receive_c, retrieve_c);                    ^~~~~~~~~~/Users/johndzak/Code/NUCas/Vendor/libcas/Headers/cas.h:72:67: note: passing argument to parameter 'cas2_servicevalidate_baseurl' here [3] CAS_CODE cas_cas2_serviceValidate_proxyTicketing( CAS* cas, char* cas2_servicevalidate_baseurl, char* escaped_service, char* ticket, int renew, char* escaped_pgt_receive_url, char* pgt_retrieve_url);                                                                   ^/Users/johndzak/Code/NUCas/Code/NUCas/CasServiceTicket.m:55:32:{55:32-55:41}: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [3]                    validate_c, service_c, ticket_c, 0,receive_c, retrieve_c);                                ^~~~~~~~~/Users/johndzak/Code/NUCas/Vendor/libcas/Headers/cas.h:72:103: note: passing argument to parameter 'escaped_service' here [3] CAS_CODE cas_cas2_serviceValidate_proxyTicketing( CAS* cas, char* cas2_servicevalidate_baseurl, char* escaped_service, char* ticket, int renew, char* escaped_pgt_receive_url, char* pgt_retrieve_url);                                                                                                       ^/Users/johndzak/Code/NUCas/Code/NUCas/CasServiceTicket.m:55:43:{55:43-55:51}: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [3]                    validate_c, service_c, ticket_c, 0,receive_c, retrieve_c);                                           ^~~~~~~~/Users/johndzak/Code/NUCas/Vendor/libcas/Headers/cas.h:72:126: note: passing argument to parameter 'ticket' here [3] CAS_CODE cas_cas2_serviceValidate_proxyTicketing( CAS* cas, char* cas2_servicevalidate_baseurl, char* escaped_service, char* ticket, int renew, char* escaped_pgt_receive_url, char* pgt_retrieve_url);                                                                                                                              ^/Users/johndzak/Code/NUCas/Code/NUCas/CasServiceTicket.m:55:55:{55:55-55:64}: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [3]                    validate_c, service_c, ticket_c, 0,receive_c, retrieve_c);                                                       ^~~~~~~~~/Users/johndzak/Code/NUCas/Vendor/libcas/Headers/cas.h:72:151: note: passing argument to parameter 'escaped_pgt_receive_url' here [3] CAS_CODE cas_cas2_serviceValidate_proxyTicketing( CAS* cas, char* cas2_servicevalidate_baseurl, char* escaped_service, char* ticket, int renew, char* escaped_pgt_receive_url, char* pgt_retrieve_url);                                                                                                                                                       ^/Users/johndzak/Code/NUCas/Code/NUCas/CasServiceTicket.m:55:66:{55:66-55:76}: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [3]                    validate_c, service_c, ticket_c, 0,receive_c, retrieve_c);                                                                  ^~~~~~~~~~/Users/johndzak/Code/NUCas/Vendor/libcas/Headers/cas.h:72:182: note: passing argument to parameter 'pgt_retrieve_url' here [3] CAS_CODE cas_cas2_serviceValidate_proxyTicketing( CAS* cas, char* cas2_servicevalidate_baseurl, char* escaped_service, char* ticket, int renew, char* escaped_pgt_receive_url, char* pgt_retrieve_url);                                                                                                                                                                                      ^5 warnings generated.5(21%IDEActivityLogMessage2@72"Passing 'const char *' to parameter of type 'char *' discards qualifiers-346796494#0#164#1(2@65"Passing argument to parameter 'cas2_servicevalidate_baseurl' here-346796494#274#138#-0#-23%DVTTextDocumentLocation3@70"file://localhost/Users/johndzak/Code/NUCas/Vendor/libcas/Headers/cas.h0000000000000000^71#66#71#66#18446744073709551615#0#14"Semantic Issue--1#-3@72"file://localhost/Users/johndzak/Code/NUCas/Code/NUCas/CasServiceTicket.m0000000000000000^54#19#54#19#18446744073709551615#0#14"Semantic Issue1(3@72"file://localhost/Users/johndzak/Code/NUCas/Code/NUCas/CasServiceTicket.m0000000000000000^54#19#54#29#18446744073709551615#0#-2@72"Passing 'const char *' to parameter of type 'char *' discards qualifiers-346796494#682#164#1(2@52"Passing argument to parameter 'escaped_service' here-346796494#967#126#-0#-3@70"file://localhost/Users/johndzak/Code/NUCas/Vendor/libcas/Headers/cas.h0000000000000000^71#102#71#102#18446744073709551615#0#14"Semantic Issue--1#-3@72"file://localhost/Users/johndzak/Code/NUCas/Code/NUCas/CasServiceTicket.m0000000000000000^54#31#54#31#18446744073709551615#0#14"Semantic Issue1(3@72"file://localhost/Users/johndzak/Code/NUCas/Code/NUCas/CasServiceTicket.m0000000000000000^54#31#54#40#18446744073709551615#0#-2@72"Passing 'const char *' to parameter of type 'char *' discards qualifiers-346796494#1399#164#1(2@43"Passing argument to parameter 'ticket' here-346796494#1694#117#-0#-3@70"file://localhost/Users/johndzak/Code/NUCas/Vendor/libcas/Headers/cas.h0000000000000000^71#125#71#125#18446744073709551615#0#14"Semantic Issue--1#-3@72"file://localhost/Users/johndzak/Code/NUCas/Code/NUCas/CasServiceTicket.m0000000000000000^54#42#54#42#18446744073709551615#0#14"Semantic Issue1(3@72"file://localhost/Users/johndzak/Code/NUCas/Code/NUCas/CasServiceTicket.m0000000000000000^54#42#54#50#18446744073709551615#0#-2@72"Passing 'const char *' to parameter of type 'char *' discards qualifiers-346796494#2140#164#1(2@60"Passing argument to parameter 'escaped_pgt_receive_url' here-346796494#2448#134#-0#-3@70"file://localhost/Users/johndzak/Code/NUCas/Vendor/libcas/Headers/cas.h0000000000000000^71#150#71#150#18446744073709551615#0#14"Semantic Issue--1#-3@72"file://localhost/Users/johndzak/Code/NUCas/Code/NUCas/CasServiceTicket.m0000000000000000^54#54#54#54#18446744073709551615#0#14"Semantic Issue1(3@72"file://localhost/Users/johndzak/Code/NUCas/Code/NUCas/CasServiceTicket.m0000000000000000^54#54#54#63#18446744073709551615#0#-2@72"Passing 'const char *' to parameter of type 'char *' discards qualifiers-346796494#2936#164#1(2@53"Passing argument to parameter 'pgt_retrieve_url' here-346796494#3256#127#-0#-3@70"file://localhost/Users/johndzak/Code/NUCas/Vendor/libcas/Headers/cas.h0000000000000000^71#181#71#181#18446744073709551615#0#14"Semantic Issue--1#-3@72"file://localhost/Users/johndzak/Code/NUCas/Code/NUCas/CasServiceTicket.m0000000000000000^54#65#54#65#18446744073709551615#0#14"Semantic Issue1(3@72"file://localhost/Users/johndzak/Code/NUCas/Code/NUCas/CasServiceTicket.m0000000000000000^54#65#54#75#18446744073709551615#0#-0#0#0#-19%DVTDocumentLocation4@72"file://localhost/Users/johndzak/Code/NUCas/Code/NUCas/CasServiceTicket.m0000000000000000^2490"CompileC build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/CasServiceTicket.o Code/NUCas/CasServiceTicket.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johndzak/Code/NUCas    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/NUCas-generated-files.hmap -I/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/NUCas-own-target-headers.hmap -I/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/NUCas-all-target-headers.hmap -iquote /Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/NUCas-project-headers.hmap -I/Users/johndzak/Code/NUCas/build/Debug-iphonesimulator/include -I/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/DerivedSources/i386 -I/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/DerivedSources -F/Users/johndzak/Code/NUCas/build/Debug-iphonesimulator -include /var/folders/1E/1ENnMmibGw8nAahKnj7bTU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/NUCas-Prefix-dztvxkleexpvibbrvhbrqfhlhggn/NUCas-Prefix.pch -MMD -MT dependencies -MF /Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/CasServiceTicket.d -c /Users/johndzak/Code/NUCas/Code/NUCas/CasServiceTicket.m -o /Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/CasServiceTicket.o36"B9FC22C9-ED5E-42F5-B1F0-516DFECEB04D-
-
-CCompileC build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/NUCas.o /Users/johndzak/Code/NUCas/Code/NUCas/NUCas.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s346794515.784918
-e346794515.801576
-r1
-xCompileC
-xbuild/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/NUCas.o
-x/Users/johndzak/Code/NUCas/Code/NUCas/NUCas.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/johndzak/Code/NUCas/Code/NUCas/NUCas.mda03c913aaabb441^df34cd13aaabb441^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Users/johndzak/Code/NUCas/Code/NUCas/NUCas.m0000000000000000^2435"CompileC build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/NUCas.o Code/NUCas/NUCas.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johndzak/Code/NUCas    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/NUCas-generated-files.hmap -I/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/NUCas-own-target-headers.hmap -I/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/NUCas-all-target-headers.hmap -iquote /Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/NUCas-project-headers.hmap -I/Users/johndzak/Code/NUCas/build/Debug-iphonesimulator/include -I/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/DerivedSources/i386 -I/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/DerivedSources -F/Users/johndzak/Code/NUCas/build/Debug-iphonesimulator -include /var/folders/1E/1ENnMmibGw8nAahKnj7bTU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/NUCas-Prefix-dztvxkleexpvibbrvhbrqfhlhggn/NUCas-Prefix.pch -MMD -MT dependencies -MF /Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/NUCas.d -c /Users/johndzak/Code/NUCas/Code/NUCas/NUCas.m -o /Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/NUCas.o36"5188ADA7-BC02-4E10-A998-D5FE7AD4DED0-
-
-CLibtool /Users/johndzak/Code/NUCas/build/Debug-iphonesimulator/libNUCas.a normal i386
-s346796494.716121
-e346796494.855355
-r1
-xLibtool
-x/Users/johndzak/Code/NUCas/build/Debug-iphonesimulator/libNUCas.a
-xnormal
-xi386
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: warning same member name (dict.o) in output file used for input files: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(dict.o) and: /Users/johndzak/Code/NUCas/Vendor/libxml2/libxml2.a(dict.o) due to use of basename, truncation and blank padding
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: warning same member name (hash.o) in output file used for input files: /Users/johndzak/Code/NUCas/Vendor/libxml2/libxml2.a(hash.o) and: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(hash.o) due to use of basename, truncation and blank padding
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: warning same member name (hmac.o) in output file used for input files: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(hmac.o) and: /Users/johndzak/Code/NUCas/Vendor/OpenSSL/libcrypto.a(hmac.o) due to use of basename, truncation and blank padding
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/OpenSSL/libcrypto.a(ebcdic.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/OpenSSL/libcrypto.a(rand_win.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/OpenSSL/libcrypto.a(rand_os2.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/OpenSSL/libcrypto.a(rand_nw.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/OpenSSL/libcrypto.a(e_rc5.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/OpenSSL/libcrypto.a(m_md2.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/OpenSSL/libcrypto.a(v3_asid.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/OpenSSL/libcrypto.a(v3_addr.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/OpenSSL/libcrypto.a(cms_cd.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/OpenSSL/libcrypto.a(e_gmp.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/OpenSSL/libssl.a(kssl.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(ldap.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(security.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(krb4.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(krb5.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(memdebug.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(strtok.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(md4.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(http_negotiate.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(inet_pton.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(strtoofft.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(hostasyn.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(hostsyn.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(inet_ntop.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(gtls.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(strdup.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(ssh.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(nss.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(qssl.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(socks_gssapi.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(socks_sspi.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(curl_sspi.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(curl_threads.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(polarssl.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(curl_rtmp.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(openldap.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(axtls.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(idn_win32.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(http_negotiate_sspi.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(cyassl.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(non-ascii.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(asyn-ares.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(asyn-thread.o) has no symbols
-o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/johndzak/Code/NUCas/Vendor/cURL/libcurl.a(curl_gssapi.o) has no symbols
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Libtool build/Debug-iphonesimulator/libNUCas.a normal i3864e63b7ceb1abb441^5281dbceb1abb441^---0#0#0#--950"Libtool build/Debug-iphonesimulator/libNUCas.a normal i386    cd /Users/johndzak/Code/NUCas    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Users/johndzak/Code/NUCas/build/Debug-iphonesimulator -L/Users/johndzak/Code/NUCas/Vendor/OpenSSL -L/Users/johndzak/Code/NUCas/Vendor/cURL -L/Users/johndzak/Code/NUCas/Vendor/libcas -L/Users/johndzak/Code/NUCas/Vendor/libxml2 -filelist /Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/Objects-normal/i386/NUCas.LinkFileList -ObjC -framework Foundation -lcrypto -lssl -lcurl -lcas -lxml2 -o /Users/johndzak/Code/NUCas/build/Debug-iphonesimulator/libNUCas.a36"43F9E309-AD73-4AD5-B783-9CB8734AEE1D-
-
-CProcessPCH /Users/johndzak/Library/Developer/Xcode/DerivedData/NUCas-ccppewlffodpsxansbzezwcvcfct/Index/PrecompiledHeaders/NUCas-Prefix-dkryosacejzjgpdhsymidtmxclgq_ast/NUCas-Prefix.pch.pth NUCas/NUCas-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/johndzak/Library/Developer/Xcode/DerivedData/NUCas-ccppewlffodpsxansbzezwcvcfct/Index/PrecompiledHeaders/NUCas-Prefix-dxjbnfleehujoggwyfyrefdwknoy_ast/NUCas-Prefix.pch.pth Code/NUCas/NUCas-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /var/folders/1E/1ENnMmibGw8nAahKnj7bTU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/NUCas-Prefix-dsvwgpbfjkhukzcwaokyuoofjxae/NUCas-Prefix.pch.pth NUCas/NUCas-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s346794459.437868
-e346794459.458893
-r0
-xProcessPCH
-x/var/folders/1E/1ENnMmibGw8nAahKnj7bTU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/NUCas-Prefix-dsvwgpbfjkhukzcwaokyuoofjxae/NUCas-Prefix.pch.pth
-xNUCas/NUCas-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oclang: error: no such file or directory: '/Users/johndzak/Code/NUCas/NUCas/NUCas-Prefix.pch'
-oclang: error: no input files
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile NUCas/NUCas-Prefix.pch784170dba9abb441^fc6f75dba9abb441^-224"clang: error: no such file or directory: '/Users/johndzak/Code/NUCas/NUCas/NUCas-Prefix.pch'clang: error: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang failed with exit code 11(21%IDEActivityLogMessage2@101"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang failed with exit code 1-346794459#18446744073709551615#0#-2#--29"Apple LLVM compiler 3.0 Error--0#0#0#-19%DVTDocumentLocation3@65"file://localhost/Users/johndzak/Code/NUCas/NUCas/NUCas-Prefix.pch00f84c32dcffdf42^2473"ProcessPCH /var/folders/1E/1ENnMmibGw8nAahKnj7bTU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/NUCas-Prefix-dsvwgpbfjkhukzcwaokyuoofjxae/NUCas-Prefix.pch.pth NUCas/NUCas-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johndzak/Code/NUCas    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/NUCas-generated-files.hmap -I/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/NUCas-own-target-headers.hmap -I/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/NUCas-all-target-headers.hmap -iquote /Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/NUCas-project-headers.hmap -I/Users/johndzak/Code/NUCas/build/Debug-iphonesimulator/include -I/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/DerivedSources/i386 -I/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/DerivedSources -F/Users/johndzak/Code/NUCas/build/Debug-iphonesimulator -c /Users/johndzak/Code/NUCas/NUCas/NUCas-Prefix.pch -o /var/folders/1E/1ENnMmibGw8nAahKnj7bTU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/NUCas-Prefix-dsvwgpbfjkhukzcwaokyuoofjxae/NUCas-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/1E/1ENnMmibGw8nAahKnj7bTU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/NUCas-Prefix-dsvwgpbfjkhukzcwaokyuoofjxae/NUCas-Prefix.pch.d36"C250DF1F-1D9B-4E75-86C6-0E19DCA97E56-
-
-CProcessPCH /var/folders/1E/1ENnMmibGw8nAahKnj7bTU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/NUCas-Prefix-dztvxkleexpvibbrvhbrqfhlhggn/NUCas-Prefix.pch.pth Code/NUCas/NUCas-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s346794515.519280
-e346794515.783624
-r1
-xProcessPCH
-x/var/folders/1E/1ENnMmibGw8nAahKnj7bTU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/NUCas-Prefix-dztvxkleexpvibbrvhbrqfhlhggn/NUCas-Prefix.pch.pth
-xCode/NUCas/NUCas-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Precompile Code/NUCas/NUCas-Prefix.pch21038513aaabb441^959bc813aaabb441^---0#0#0#-19%DVTDocumentLocation2@70"file://localhost/Users/johndzak/Code/NUCas/Code/NUCas/NUCas-Prefix.pch0000000000000000^2483"ProcessPCH /var/folders/1E/1ENnMmibGw8nAahKnj7bTU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/NUCas-Prefix-dztvxkleexpvibbrvhbrqfhlhggn/NUCas-Prefix.pch.pth Code/NUCas/NUCas-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johndzak/Code/NUCas    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/NUCas-generated-files.hmap -I/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/NUCas-own-target-headers.hmap -I/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/NUCas-all-target-headers.hmap -iquote /Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/NUCas-project-headers.hmap -I/Users/johndzak/Code/NUCas/build/Debug-iphonesimulator/include -I/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/DerivedSources/i386 -I/Users/johndzak/Code/NUCas/build/NUCas.build/Debug-iphonesimulator/NUCas.build/DerivedSources -F/Users/johndzak/Code/NUCas/build/Debug-iphonesimulator -c /Users/johndzak/Code/NUCas/Code/NUCas/NUCas-Prefix.pch -o /var/folders/1E/1ENnMmibGw8nAahKnj7bTU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/NUCas-Prefix-dztvxkleexpvibbrvhbrqfhlhggn/NUCas-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/1E/1ENnMmibGw8nAahKnj7bTU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/NUCas-Prefix-dztvxkleexpvibbrvhbrqfhlhggn/NUCas-Prefix.pch.d36"47A6C937-4DB1-4FEC-998A-2114243D0AD4-
-
