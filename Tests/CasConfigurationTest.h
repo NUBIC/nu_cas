@@ -11,6 +11,6 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
-@interface NUCasConfiguration : SenTestCase
+@interface CasConfigurationTest : SenTestCase
 
 @end

@@ -6,10 +6,10 @@
 //  Copyright (c) 2011 Northwestern University. All rights reserved.
 //
 
-#import "NUCasConfiguration.h"
+#import "CasConfigurationTest.h"
 #import "NUCas.h"
 
-@implementation NUCasConfiguration
+@implementation CasConfigurationTest
 
 CasClient* c;
 CasConfiguration* conf;
