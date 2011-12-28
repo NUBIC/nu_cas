@@ -7,13 +7,30 @@
 //
 
 #import "NUCasConfiguration.h"
+#import "NUCas.h"
 
 @implementation NUCasConfiguration
 
-// All code under test must be linked into the Unit Test bundle
-- (void)testMath
-{
-    STAssertTrue((1 + 1) == 2, @"Compiler isn't feeling well today :-(");
+CasClient* c;
+CasConfiguration* conf;
+
+- (void)setUp {
+    [super setUp];
+    
+    conf = [[CasConfiguration alloc] initWithCasURL:@"http://myCAS.test"];
+    
+    c = [[CasClient alloc] initWithConfiguration:conf];
 }
+
+- (void)testServiceValidateURL {
+    STAssertEqualObjects(@"http://myCAS.test/serviceValidate", [c serviceValidateURL], nil);
+}
+
+
+- (void)testServiceValidateURLWithPath {  
+    conf.casURL = [[NSURL alloc] initWithString:@"http://myCAS.test/cas"];
+    STAssertEqualObjects(@"http://myCAS.test/cas/serviceValidate", [c serviceValidateURL], nil);
+}
+
 
 @end
