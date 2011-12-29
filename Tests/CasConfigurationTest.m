@@ -28,7 +28,7 @@ CasConfiguration* conf;
 
 
 - (void)testServiceValidateURLWithPath {  
-    conf.casURL = [[NSURL alloc] initWithString:@"http://myCAS.test/cas"];
+    conf.casURL = @"http://myCAS.test/cas";
     STAssertEqualObjects(@"http://myCAS.test/cas/serviceValidate", [c serviceValidateURL], nil);
 }
 

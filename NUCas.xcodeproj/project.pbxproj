@@ -172,6 +172,9 @@
 		006DA19A14ABD00D00A622B3 /* libNUCas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0039D31814ABA99700DB9B7A /* libNUCas.a */; };
 		006DA1A314ABD1C900A622B3 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0056D1CC14ABC67F00F0B4DB /* libiconv.dylib */; };
 		006DA1A414ABD1D100A622B3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0056D1CE14ABC69200F0B4DB /* libz.dylib */; };
+		006DA1A614ABDAD200A622B3 /* NUCas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 006DA1A514ABDAD200A622B3 /* NUCas.plist */; };
+		006DA1A914ACC6A200A622B3 /* URLHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 006DA1A714ACC6A200A622B3 /* URLHelper.h */; };
+		006DA1AA14ACC6A200A622B3 /* URLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 006DA1A814ACC6A200A622B3 /* URLHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -350,10 +353,13 @@
 		0056D1D114ABC6D000F0B4DB /* NSURL-Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURL-Additions.m"; path = "../../UIWebViewHttpStatusCodeHandling/UIWebViewHttpStatusCodeHandling/NSURL-Additions.m"; sourceTree = "<group>"; };
 		0056D1DD14ABC9E200F0B4DB /* NUCasTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NUCasTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0056D1DE14ABC9E200F0B4DB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		0056D1F914ABCD5400F0B4DB /* CasConfigurationTest.h */ = {isa = PBXFileReference; fileEncoding = 4; path = CasConfigurationTest.h; sourceTree = "<group>"; };
+		0056D1F914ABCD5400F0B4DB /* CasConfigurationTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CasConfigurationTest.h; sourceTree = "<group>"; };
 		0056D1FA14ABCD5400F0B4DB /* CasConfigurationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CasConfigurationTest.m; sourceTree = "<group>"; };
 		006DA19E14ABD0E200A622B3 /* NUCasTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NUCasTests-Info.plist"; sourceTree = "<group>"; };
 		006DA19F14ABD0E200A622B3 /* NUCasTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NUCasTests-Prefix.pch"; sourceTree = "<group>"; };
+		006DA1A514ABDAD200A622B3 /* NUCas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NUCas.plist; sourceTree = "<group>"; };
+		006DA1A714ACC6A200A622B3 /* URLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLHelper.h; sourceTree = "<group>"; };
+		006DA1A814ACC6A200A622B3 /* URLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLHelper.m; sourceTree = "<group>"; };
 		00F7134514ABBFE500DDEA0F /* UIViewController-Cas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController-Cas.h"; sourceTree = "<group>"; };
 		00F7134614ABBFE500DDEA0F /* UIViewController-Cas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController-Cas.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -443,6 +449,8 @@
 				0039D45014ABB0C000DB9B7A /* CasServiceTicket.h */,
 				0039D45114ABB0C000DB9B7A /* CasServiceTicket.m */,
 				0039D32414ABA9CE00DB9B7A /* NUCas-Prefix.pch */,
+				006DA1A714ACC6A200A622B3 /* URLHelper.h */,
+				006DA1A814ACC6A200A622B3 /* URLHelper.m */,
 			);
 			path = NUCas;
 			sourceTree = "<group>";
@@ -711,6 +719,7 @@
 				0039D47814ABB20B00DB9B7A /* NUViewController.m */,
 				0039D47A14ABB20B00DB9B7A /* NUViewController.xib */,
 				0039D46C14ABB20B00DB9B7A /* Supporting Files */,
+				006DA1A514ABDAD200A622B3 /* NUCas.plist */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -888,6 +897,7 @@
 				0039D44814ABB08300DB9B7A /* xpath.h in Headers */,
 				0039D44914ABB08300DB9B7A /* xpathInternals.h in Headers */,
 				0039D44A14ABB08300DB9B7A /* xpointer.h in Headers */,
+				006DA1A914ACC6A200A622B3 /* URLHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -982,6 +992,7 @@
 			files = (
 				0039D47014ABB20B00DB9B7A /* InfoPlist.strings in Resources */,
 				0039D47C14ABB20B00DB9B7A /* NUViewController.xib in Resources */,
+				006DA1A614ABDAD200A622B3 /* NUCas.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1019,6 +1030,7 @@
 				0039D45514ABB0C000DB9B7A /* CasConfiguration.m in Sources */,
 				0039D45714ABB0C000DB9B7A /* CasServiceTicket.m in Sources */,
 				0039D45B14ABB0CB00DB9B7A /* CasProxyTicket.m in Sources */,
+				006DA1AA14ACC6A200A622B3 /* URLHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

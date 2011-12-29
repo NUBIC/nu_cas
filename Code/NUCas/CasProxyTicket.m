@@ -13,6 +13,7 @@
 
 @synthesize proxyTicket = _proxyTicket;
 @synthesize message = _message;
+@synthesize error = _error;
 
 - (id) initWithCas:(CAS*)cas proxyURL:(NSString*)proxyURL serviceURL:(NSString*)serviceURL proxyGrantingTicket:(NSString*)pgt {
     self = [super init];
@@ -25,11 +26,11 @@
     return self;
 }
 
-- (BOOL) reify:(NSString*)error {
-    if (_cas == NULL) { error = @"ERROR: Libcas client is required"; return false; }
-    if (_proxyURL == NULL) { error = @"ERROR: Proxy URL is required"; return false; }
-    if (_serviceURL == NULL) { error = @"ERROR: Service URL is required"; return false;}
-    if (_proxyGrantingTicket == NULL) { error = @"ERROR: Proxy Granting Ticket is required"; return false; }
+- (BOOL) reify {
+    if (_cas == NULL) { _error = @"ERROR: Libcas client is required"; return false; }
+    if (_proxyURL == NULL) { _error = @"ERROR: Proxy URL is required"; return false; }
+    if (_serviceURL == NULL) { _error = @"ERROR: Service URL is required"; return false;}
+    if (_proxyGrantingTicket == NULL) { _error = @"ERROR: Proxy Granting Ticket is required"; return false; }
     
     const char* proxy_c = [_proxyURL UTF8String];
     const char* service_c = [_serviceURL UTF8String];
@@ -42,15 +43,15 @@
             if (pt != NULL) {
                 _proxyTicket = [[NSString alloc] initWithUTF8String:pt];
             } else {
-                error = @"ERROR: Failed to obtain proxy ticket after successful proxy request";
+                _error = @"ERROR: Failed to obtain proxy ticket after successful proxy request";
             }
         } else {
             char* m = cas_get_message(_cas);
-            error = [[NSString alloc ] initWithUTF8String:m];
+            _error = [[NSString alloc ] initWithUTF8String:m];
         }
     }
     @catch (NSException *exception) {
-        error = @"ERROR: Failed to obtain a proxy ticket";
+        _error = @"ERROR: Failed to obtain a proxy ticket";
     }
 }
 

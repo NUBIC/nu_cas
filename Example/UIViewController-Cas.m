@@ -33,8 +33,7 @@
     
     CasProxyTicket* pt = [c proxyTicket:NULL serviceURL:@"http://targetService.dev/foo" proxyGrantingTicket:st.pgt];
     
-    NSString* error;
-    if ([pt reify:error]) {
+    if ([pt reify]) {
         NSLog(@"Successfully obtained proxy ticket: [proxy ticket= %@]", pt.proxyTicket);
     } else {
         NSLog(@"Failed to obtained proxy ticket");        

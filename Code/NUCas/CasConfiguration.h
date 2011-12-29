@@ -12,11 +12,11 @@
 
 #pragma mark properties
 
-@property(nonatomic,retain) NSURL* casURL;
+@property(nonatomic,retain) NSString* casURL;
 
-@property(nonatomic,retain) NSURL* receiveURL;
+@property(nonatomic,retain) NSString* receiveURL;
 
-@property(nonatomic,retain) NSURL* retrieveURL;
+@property(nonatomic,retain) NSString* retrieveURL;
 
 #pragma mark methods
 

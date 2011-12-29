@@ -12,18 +12,21 @@
 
 @interface CasProxyTicket : NSObject {
     CAS* _cas;
+    NSString* _error;
+    NSString* _message;
+    NSString* _proxyTicket;
     NSString* _proxyURL;
     NSString* _serviceURL;
     NSString* _proxyGrantingTicket;
-    NSString* _proxyTicket;
-    NSString* _message;
 }
 
 #pragma Properties
 
-@property(nonatomic,readonly) NSString* proxyTicket;
+@property(nonatomic,readonly) NSString* error;
 
 @property(nonatomic,readonly) NSString* message;
+
+@property(nonatomic,readonly) NSString* proxyTicket;
 
 @property (nonatomic, readonly, getter = isOk) BOOL ok;
 
@@ -31,6 +34,6 @@
 
 - (id) initWithCas:(CAS*)cas proxyURL:(NSString*)proxyURL serviceURL:(NSString*)serviceURL proxyGrantingTicket:(NSString*)pgt;
 
-- (BOOL) reify:(NSString*)error;
+- (BOOL) reify;
 
 @end

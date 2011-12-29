@@ -10,9 +10,9 @@
 
 @interface CasConfiguration () {
 @private
-    NSURL* _casURL;
-    NSURL* _receiveURL;
-    NSURL* _retrieveURL;
+    NSString* _casURL;
+    NSString* _receiveURL;
+    NSString* _retrieveURL;
 }
 @end
 
@@ -22,28 +22,30 @@
 @synthesize receiveURL=_receiveURL;
 @synthesize retrieveURL=_retrieveURL;
 
-- (id)init
-{
+- (id)init {
     self = [super init];
     if (self) {
-        self.casURL = 
-            [NSURL URLWithString:@"http://cas.dev"];
+        NSString* path = [[NSBundle mainBundle] pathForResource:@"NUCas" ofType:@"plist"];
+        NSDictionary* settings = [[NSDictionary alloc] initWithContentsOfFile:path];
         
-        self.receiveURL = 
-            [NSURL URLWithString:@"https://cas2.nubic.northwestern.edu/cas-proxy-callback-staging/receive_pgt"];
+        if (!settings) {
+            NSLog(@"NUCas.plist not found at %@", path);
+        }
+
+        self.casURL = [settings objectForKey:@"cas.base.url"];
         
-        self.retrieveURL = 
-            [NSURL URLWithString:@"https://cas2.nubic.northwestern.edu/cas-proxy-callback-staging/retrieve_pgt"];
+        self.receiveURL = [settings objectForKey:@"cas.receive.url"];
+        
+        self.retrieveURL = [settings objectForKey:@"cas.retrieve.url"];
     }
     
     return self;
 }
 
 - (id)initWithCasURL:(NSString*)casURL {
-    self = [self init];
-    
+    self = [super init];
     if (self) {
-        self.casURL = [NSURL URLWithString:casURL];
+        self.casURL = casURL;
     }
     
     return self;

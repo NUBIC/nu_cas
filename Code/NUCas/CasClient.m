@@ -11,6 +11,7 @@
 #import "CasConfiguration.h"
 #import "CasServiceTicket.h"
 #import "CasProxyTicket.h"
+#import "URLHelper.h"
 
 @implementation CasClient
 
@@ -40,15 +41,15 @@
 }
 
 - (NSString*) serviceValidateURL {
-    return [[self.config.casURL URLByAppendingPathComponent:@"serviceValidate"] absoluteString];
+    return [URLHelper url:self.config.casURL appendPathComponent:@"serviceValidate"];
 }
 
 - (NSString*) proxyURL {
-    return [[self.config.casURL URLByAppendingPathComponent:@"proxy"] absoluteString];    
+    return [URLHelper url:self.config.casURL appendPathComponent:@"proxy"];
 }
 
 - (CasServiceTicket*) serviceTicket:(NSString*)ticket serviceURL:(NSString*) serviceURL {
-    return [[CasServiceTicket alloc] initWithCas:_cas serviceValidateURL:[self serviceValidateURL] serviceURL:serviceURL ticket:ticket pgtReceiveURL:[_config.receiveURL absoluteString] pgtRetrieveURL:[_config.retrieveURL absoluteString]];
+    return [[CasServiceTicket alloc] initWithCas:_cas serviceValidateURL:[self serviceValidateURL] serviceURL:serviceURL ticket:ticket pgtReceiveURL:self.config.receiveURL pgtRetrieveURL:self.config.retrieveURL];
 }
 
 - (CasProxyTicket*) proxyTicket:(NSString*)ticket serviceURL:(NSString*)serviceURL proxyGrantingTicket:(NSString*)pgt {
