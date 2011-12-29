@@ -26,11 +26,12 @@
     self = [super init];
     if (self) {
         NSString* path = [[NSBundle mainBundle] pathForResource:@"NUCas" ofType:@"plist"];
-        NSDictionary* settings = [[NSDictionary alloc] initWithContentsOfFile:path];
-        
-        if (!settings) {
-            NSLog(@"NUCas.plist not found at %@", path);
+
+        if (!path) {
+            NSLog(@"NUCas.plist not found at %@/NUCas.plist", [NSBundle mainBundle]);
         }
+        
+        NSDictionary* settings = [[NSDictionary alloc] initWithContentsOfFile:path];
 
         self.casURL = [settings objectForKey:@"cas.base.url"];
         

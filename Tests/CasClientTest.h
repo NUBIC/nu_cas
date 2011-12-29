@@ -1,8 +1,8 @@
 //
-//  CasConfigurationTest.h
+//  NUCasConfiguration.h
 //  NUCas
 //
-//  Created by John Dzak on 12/29/11.
+//  Created by John Dzak on 12/28/11.
 //  Copyright (c) 2011 Northwestern University. All rights reserved.
 //
 
@@ -11,6 +11,6 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
-@interface CasConfigurationTest : SenTestCase
+@interface CasClientTest : SenTestCase
 
 @end
