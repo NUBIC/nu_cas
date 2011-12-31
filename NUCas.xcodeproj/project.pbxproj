@@ -173,9 +173,13 @@
 		006DA1A314ABD1C900A622B3 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0056D1CC14ABC67F00F0B4DB /* libiconv.dylib */; };
 		006DA1A414ABD1D100A622B3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0056D1CE14ABC69200F0B4DB /* libz.dylib */; };
 		006DA1A614ABDAD200A622B3 /* NUCas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 006DA1A514ABDAD200A622B3 /* NUCas.plist */; };
-		006DA1A914ACC6A200A622B3 /* URLHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 006DA1A714ACC6A200A622B3 /* URLHelper.h */; };
+		006DA1A914ACC6A200A622B3 /* URLHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 006DA1A714ACC6A200A622B3 /* URLHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		006DA1AA14ACC6A200A622B3 /* URLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 006DA1A814ACC6A200A622B3 /* URLHelper.m */; };
 		00B270EA14ACCF5000F04BF7 /* CasConfigurationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B270E914ACCF5000F04BF7 /* CasConfigurationTest.m */; };
+		00B270EE14AD013B00F04BF7 /* CasLoginDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B270ED14AD013B00F04BF7 /* CasLoginDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00B270F214AD02F600F04BF7 /* CasLoginVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B270EF14AD02F600F04BF7 /* CasLoginVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00B270F314AD02F600F04BF7 /* CasLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B270F014AD02F600F04BF7 /* CasLoginVC.m */; };
+		00C23C7814AE505B00E82C5B /* URLHelperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C23C7714AE505B00E82C5B /* URLHelperTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -363,6 +367,11 @@
 		006DA1A814ACC6A200A622B3 /* URLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLHelper.m; sourceTree = "<group>"; };
 		00B270E814ACCF5000F04BF7 /* CasConfigurationTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CasConfigurationTest.h; sourceTree = "<group>"; };
 		00B270E914ACCF5000F04BF7 /* CasConfigurationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CasConfigurationTest.m; sourceTree = "<group>"; };
+		00B270ED14AD013B00F04BF7 /* CasLoginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CasLoginDelegate.h; sourceTree = "<group>"; };
+		00B270EF14AD02F600F04BF7 /* CasLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CasLoginVC.h; sourceTree = "<group>"; };
+		00B270F014AD02F600F04BF7 /* CasLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CasLoginVC.m; sourceTree = "<group>"; };
+		00C23C7614AE505B00E82C5B /* URLHelperTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLHelperTest.h; sourceTree = "<group>"; };
+		00C23C7714AE505B00E82C5B /* URLHelperTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLHelperTest.m; sourceTree = "<group>"; };
 		00F7134514ABBFE500DDEA0F /* UIViewController-Cas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController-Cas.h"; sourceTree = "<group>"; };
 		00F7134614ABBFE500DDEA0F /* UIViewController-Cas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController-Cas.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -454,6 +463,9 @@
 				0039D32414ABA9CE00DB9B7A /* NUCas-Prefix.pch */,
 				006DA1A714ACC6A200A622B3 /* URLHelper.h */,
 				006DA1A814ACC6A200A622B3 /* URLHelper.m */,
+				00B270ED14AD013B00F04BF7 /* CasLoginDelegate.h */,
+				00B270EF14AD02F600F04BF7 /* CasLoginVC.h */,
+				00B270F014AD02F600F04BF7 /* CasLoginVC.m */,
 			);
 			path = NUCas;
 			sourceTree = "<group>";
@@ -746,6 +758,8 @@
 				0056D1FA14ABCD5400F0B4DB /* CasClientTest.m */,
 				00B270E814ACCF5000F04BF7 /* CasConfigurationTest.h */,
 				00B270E914ACCF5000F04BF7 /* CasConfigurationTest.m */,
+				00C23C7614AE505B00E82C5B /* URLHelperTest.h */,
+				00C23C7714AE505B00E82C5B /* URLHelperTest.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -771,6 +785,9 @@
 				0039D45414ABB0C000DB9B7A /* CasConfiguration.h in Headers */,
 				0039D45614ABB0C000DB9B7A /* CasServiceTicket.h in Headers */,
 				0039D45A14ABB0CB00DB9B7A /* CasProxyTicket.h in Headers */,
+				006DA1A914ACC6A200A622B3 /* URLHelper.h in Headers */,
+				00B270EE14AD013B00F04BF7 /* CasLoginDelegate.h in Headers */,
+				00B270F214AD02F600F04BF7 /* CasLoginVC.h in Headers */,
 				0039D32714ABA9CE00DB9B7A /* NUCas-Prefix.pch in Headers */,
 				0039D37F14ABB05A00DB9B7A /* aes.h in Headers */,
 				0039D38014ABB05A00DB9B7A /* asn1.h in Headers */,
@@ -902,7 +919,6 @@
 				0039D44814ABB08300DB9B7A /* xpath.h in Headers */,
 				0039D44914ABB08300DB9B7A /* xpathInternals.h in Headers */,
 				0039D44A14ABB08300DB9B7A /* xpointer.h in Headers */,
-				006DA1A914ACC6A200A622B3 /* URLHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1036,6 +1052,7 @@
 				0039D45714ABB0C000DB9B7A /* CasServiceTicket.m in Sources */,
 				0039D45B14ABB0CB00DB9B7A /* CasProxyTicket.m in Sources */,
 				006DA1AA14ACC6A200A622B3 /* URLHelper.m in Sources */,
+				00B270F314AD02F600F04BF7 /* CasLoginVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1057,6 +1074,7 @@
 			files = (
 				0056D1FB14ABCD5400F0B4DB /* CasClientTest.m in Sources */,
 				00B270EA14ACCF5000F04BF7 /* CasConfigurationTest.m in Sources */,
+				00C23C7814AE505B00E82C5B /* URLHelperTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

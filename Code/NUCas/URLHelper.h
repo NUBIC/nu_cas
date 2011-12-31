@@ -11,5 +11,9 @@
 @interface URLHelper : NSObject
 
 + (NSString*) url:(NSString*)url appendPathComponent:(NSString*)pathComponent;
+
++ (NSString*) url:(NSString*)url appendPathComponent:(NSString*)pathComponent withParams:(NSDictionary*)params;
     
++ (NSString*) encodeString:(NSString*)raw;
+
 @end
