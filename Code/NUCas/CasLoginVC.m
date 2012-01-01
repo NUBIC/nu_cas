@@ -43,7 +43,7 @@
     
     if ([URLHelper isURL:requestedNoQuery equalToURL:[self serviceURL]]) {
         
-        NSLog(@"Login succesfull");
+        NSLog(@"Login succesful");
         
         NSString* ticket = [URLHelper valueForKey:@"ticket" inURL:[[request URL] absoluteString]];
         
