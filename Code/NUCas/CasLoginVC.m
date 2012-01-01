@@ -12,15 +12,11 @@
 #import "CasConfiguration.h"
 #import "CasClient.h"
 
-@interface CasLoginVC()
-- (NSURL*) loginURL;
-@end
-
 @implementation CasLoginVC
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    // Return YES for supported orientations
+@synthesize delegate = _delegate;
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
 	return YES;
 }
 
@@ -45,15 +41,17 @@
         
         NSLog(@"Login succesful");
         
-        NSString* ticket = [URLHelper valueForKey:@"ticket" inURL:[[request URL] absoluteString]];
+        NSString* ticketStr = [URLHelper valueForKey:@"ticket" inURL:[[request URL] absoluteString]];
         
-        if (ticket) {
+        if (ticketStr) {
     
             CasConfiguration* conf = [[CasConfiguration alloc] init];
             
             CasClient* client = [[CasClient alloc] initWithConfiguration:conf];
             
-            [client serviceTicket:ticket serviceURL:[self serviceURL]];
+            CasServiceTicket* ticket = [client serviceTicket:ticketStr serviceURL:[self serviceURL]];
+            
+            [self.delegate successfullyObtainedServiceTicket:ticket];
             
             return NO;
         }

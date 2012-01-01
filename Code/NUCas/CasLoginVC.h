@@ -7,8 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CasLoginDelegate.h"
 
-@interface CasLoginVC : UIViewController<UIWebViewDelegate>
+@interface CasLoginVC : UIViewController<UIWebViewDelegate> {
+    id<CasLoginDelegate> _delegate;
+}
+
+#pragma mark - properties
+
+@property(nonatomic,retain) id<CasLoginDelegate> delegate;
+
+#pragma mark - methods
 
 - (NSURL*) loginURL;
 

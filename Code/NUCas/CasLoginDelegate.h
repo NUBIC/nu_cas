@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CasServiceTicket.h"
 
 @protocol CasLoginDelegate <NSObject>
-- successfullyObtainedServiceTicket:(CasServiceTicket*)serviceTicket;
-- failed;
+- (void)successfullyObtainedServiceTicket:(CasServiceTicket*)serviceTicket;
 @end

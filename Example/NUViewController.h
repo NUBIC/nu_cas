@@ -8,17 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NUViewController : UIViewController<UIWebViewDelegate> {
-    UIWebView* _webView;
-    UITextView* _logsTextView;
-    NSString* _url;
-    BOOL _sessionChecked;
+#import "NUCas.h"
+
+@interface NUViewController : UIViewController<UIWebViewDelegate,CasLoginDelegate> {
 }
 
-@property(nonatomic,retain) IBOutlet UIWebView* webView;
-@property(nonatomic,retain) IBOutlet UITextView* logsTextView;
-@property(nonatomic,retain) NSString* url;
 
-- (void) successfulLogin;
+- (void)successfullyObtainedServiceTicket:(CasServiceTicket*)serviceTicket;
 
 @end

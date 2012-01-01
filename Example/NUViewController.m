@@ -10,15 +10,8 @@
 #import "UIViewController-Cas.h"
 #import "NUCas.h"
 
-@interface NUViewController(Private)
-- (void) log:(NSString *)message;
-@end
-
 @implementation NUViewController
 
-@synthesize webView = _webView;
-@synthesize logsTextView = _logsTextView;
-@synthesize url = _url;
 
 - (void)didReceiveMemoryWarning
 {
@@ -51,6 +44,7 @@
     [super viewDidAppear:animated];
 
     CasLoginVC* clc = [[CasLoginVC alloc] init];
+    clc.delegate = self;
     [self presentViewController:clc animated:YES completion:nil];
 }
 
@@ -70,28 +64,11 @@
     return YES;
 }
 
-- (void)dealloc {
-    [self.webView release];
-    [self.logsTextView release];
-    [self.url release];
-    [super dealloc];
-}
 
-#pragma -
-#pragma Private Methods
+#pragma mark - Cas Methods
 
-- (void) log:(NSString *)message
-{
-    NSString *newText = [self.logsTextView.text stringByAppendingFormat:@"> %@\n", message];
-    [self.logsTextView setText:newText];
-    [self.logsTextView scrollRangeToVisible:NSMakeRange((self.logsTextView.text.length - 2), 1)];
-}
-
-#pragma -
-#pragma Cas Methods
-
-- (void) successfulLogin {
-    NSLog(@"Successful Login!!!");
+- (void)successfullyObtainedServiceTicket:(CasServiceTicket*)serviceTicket {
+    NSLog(@"Successful obtained service ticket: %@", serviceTicket);
 }
 
 @end
