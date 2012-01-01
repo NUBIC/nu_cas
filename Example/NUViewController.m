@@ -32,14 +32,6 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor redColor];
-    
-    //    NSURL *casURL = [[NSURL alloc]initWithString:@"https://cas.nubic.northwestern.edu/cas?compact"];
-    //    NSURL *casURL = [[NSURL alloc]initWithString:@"https://cas2.nubic.northwestern.edu/cas-staging?compact"];
-//    NSURL *casURL = [[NSURL alloc]initWithString:@"http://cas.dev/login?renew=true"];
-    
-//    [self loginWithCasBaseURL:casURL webView:self.webView];
-    
-    //    NSURLRequest *req = [NSURLRequest requestWithURL:[NSURL URLWithString:self.url]];
 }
 
 - (void)viewDidUnload

@@ -16,4 +16,10 @@
     
 + (NSString*) encodeString:(NSString*)raw;
 
++ (NSString*) stripQueryFromURL:(NSString*)url;
+
++ (NSString*) valueForKey:(NSString*)key inURL:(NSString*)url;
+
++ (BOOL) isURL:(NSString*)one equalToURL:(NSString*)two;
+
 @end

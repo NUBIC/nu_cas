@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CasLoginVC : UIViewController
+@interface CasLoginVC : UIViewController<UIWebViewDelegate>
+
+- (NSURL*) loginURL;
 
 - (NSString*) serviceURL;
 

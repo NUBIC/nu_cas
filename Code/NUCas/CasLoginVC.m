@@ -7,13 +7,63 @@
 //
 
 #import "CasLoginVC.h"
-#import "NSURL-Additions.h"
 #import "URLHelper.h"
+#import "CasServiceTicket.h"
+#import "CasConfiguration.h"
+#import "CasClient.h"
 
 @interface CasLoginVC()
 - (NSURL*) loginURL;
 @end
+
 @implementation CasLoginVC
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    // Return YES for supported orientations
+	return YES;
+}
+
+- (NSURL*) loginURL {
+    NSDictionary *params = [[NSDictionary alloc] initWithObjectsAndKeys:
+                            [self serviceURL], @"service", 
+                            @"true", @"renew", nil];
+    
+    return [[NSURL alloc] initWithString:[URLHelper url:@"http://cas.dev" appendPathComponent:@"login" withParams:params]];
+}
+
+- (NSString*) serviceURL {
+    return @"http://127.0.0.1";
+}
+
+// Intercept request to service URL
+- (BOOL) webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
+
+    NSString* requestedNoQuery = [URLHelper stripQueryFromURL:[[request URL] absoluteString]];
+    
+    if ([URLHelper isURL:requestedNoQuery equalToURL:[self serviceURL]]) {
+        
+        NSLog(@"Login succesfull");
+        
+        NSString* ticket = [URLHelper valueForKey:@"ticket" inURL:[[request URL] absoluteString]];
+        
+        if (ticket) {
+    
+            CasConfiguration* conf = [[CasConfiguration alloc] init];
+            
+            CasClient* client = [[CasClient alloc] initWithConfiguration:conf];
+            
+            [client serviceTicket:ticket serviceURL:[self serviceURL]];
+            
+            return NO;
+        }
+        
+    }
+    
+    return YES;
+}
+
+#pragma mark - UIController methods
 
 - (void)didReceiveMemoryWarning
 {
@@ -30,13 +80,11 @@
     [super viewDidLoad];
 
     UIWebView *wv = [[UIWebView alloc] initWithFrame:self.view.frame];
+    wv.delegate = self;
     [self.view addSubview:wv];
     
-//    NSURL *casURL = [[NSURL alloc]initWithString:@"http://cas.dev/login?renew=true"];
-//    NSURL *loginURL = [casURL URLByAppendingPathComponent:@"login"];
-//    loginURL = [casURL URLByAppendingQueryString:@"service=127.0.0.1"];
     NSURL* url = [self loginURL];
-    NSLog(@"URL: %@", [url absoluteString]);
+    NSLog(@"Logging into: %@", [url absoluteString]);
     [wv loadRequest:[NSURLRequest requestWithURL:url]];
 }
 
@@ -49,19 +97,4 @@
     // e.g. self.myOutlet = nil;
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    // Return YES for supported orientations
-	return YES;
-}
-
-- (NSURL*) loginURL {
-    NSDictionary *params = [[NSDictionary alloc] initWithObjectsAndKeys:[self serviceURL], @"service", @"true", @"renew", nil];
-    NSString* loginURL = [URLHelper url:@"http://cas.dev" appendPathComponent:@"login" withParams:params];
-    return [[NSURL alloc] initWithString:loginURL];
-}
-
-- (NSString*) serviceURL {
-    return @"127.0.0.1";
-}
 @end

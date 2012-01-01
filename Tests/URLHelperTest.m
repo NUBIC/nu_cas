@@ -49,4 +49,13 @@
     NSString* u = [URLHelper url:@"http://b.org" appendPathComponent:@"kirk" withParams:NULL];
     STAssertEqualObjects(@"http://b.org/kirk", u, @"Wrong URL");
 }
+
+- (void)testIsURLEquals {
+    STAssertTrue([URLHelper isURL:@"http://foo.bar" equalToURL:@"http://foo.bar/"], @"The URLs should be equal");
+}
+
+- (void)testValueForKeyInURL {
+    STAssertEqualObjects(@"captain", [URLHelper valueForKey:@"role" inURL:@"http://b.org/kirk?role=captain"], @"Wrong value");
+}
+
 @end

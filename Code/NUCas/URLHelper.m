@@ -30,6 +30,34 @@
     return [query length] > 0 ? [NSString stringWithFormat:@"%@?%@", uri, query] : uri;
 }
 
++ (NSString*) stripQueryFromURL:(NSString*)url {
+    return [[url componentsSeparatedByString:@"?"] objectAtIndex:0];
+
+}
+
++ (BOOL) isURL:(NSString*)one equalToURL:(NSString*)two {
+    NSURL* urlOne = [[[NSURL alloc] initWithString:one] absoluteURL];
+    NSURL* urlTwo = [[[NSURL alloc] initWithString:two] absoluteURL];
+    
+    NSString* pathOne = [urlOne.path length] ? urlOne.path : @"/";
+    NSString* pathTwo = [urlTwo.path length] ? urlTwo.path : @"/";
+    
+    return [urlOne.scheme isEqualToString:urlTwo.scheme] &&
+           [urlOne.host isEqualToString:urlTwo.host] &&
+           [pathOne isEqualToString:pathTwo];
+}
+
++ (NSString*) valueForKey:(NSString*)key inURL:(NSString*)url {
+    NSString* query = [[NSURL alloc] initWithString:url].query;
+
+    NSMutableDictionary *dict = [NSMutableDictionary new];
+    for (NSString *p in [query componentsSeparatedByString:@"&"]) {
+        NSArray *pair = [p componentsSeparatedByString:@"="];
+        [dict setObject:[pair objectAtIndex:1]  forKey:[pair objectAtIndex:0]];
+    }
+    return [dict objectForKey:key];
+}
+
 // Escape reserved characters in rfc3986
 + (NSString*) encodeString:(NSString*)raw {
     return (__bridge NSString*)
