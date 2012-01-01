@@ -164,7 +164,6 @@
 		0056D1C914ABC61E00F0B4DB /* libNUCas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0039D31814ABA99700DB9B7A /* libNUCas.a */; };
 		0056D1CD14ABC67F00F0B4DB /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0056D1CC14ABC67F00F0B4DB /* libiconv.dylib */; };
 		0056D1CF14ABC69200F0B4DB /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0056D1CE14ABC69200F0B4DB /* libz.dylib */; };
-		0056D1D414ABC6E500F0B4DB /* NSURL-Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0056D1D114ABC6D000F0B4DB /* NSURL-Additions.m */; };
 		0056D1DF14ABC9E200F0B4DB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0056D1DE14ABC9E200F0B4DB /* SenTestingKit.framework */; };
 		0056D1E014ABC9E200F0B4DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0039D46514ABB20B00DB9B7A /* UIKit.framework */; };
 		0056D1E114ABC9E200F0B4DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0039D46714ABB20B00DB9B7A /* Foundation.framework */; };
@@ -354,8 +353,6 @@
 		0039D47B14ABB20B00DB9B7A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NUViewController.xib; sourceTree = "<group>"; };
 		0056D1CC14ABC67F00F0B4DB /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		0056D1CE14ABC69200F0B4DB /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		0056D1D014ABC6D000F0B4DB /* NSURL-Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURL-Additions.h"; path = "../../UIWebViewHttpStatusCodeHandling/UIWebViewHttpStatusCodeHandling/NSURL-Additions.h"; sourceTree = "<group>"; };
-		0056D1D114ABC6D000F0B4DB /* NSURL-Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURL-Additions.m"; path = "../../UIWebViewHttpStatusCodeHandling/UIWebViewHttpStatusCodeHandling/NSURL-Additions.m"; sourceTree = "<group>"; };
 		0056D1DD14ABC9E200F0B4DB /* NUCasTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NUCasTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0056D1DE14ABC9E200F0B4DB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		0056D1F914ABCD5400F0B4DB /* CasClientTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CasClientTest.h; sourceTree = "<group>"; };
@@ -724,8 +721,6 @@
 		0039D46B14ABB20B00DB9B7A /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				0056D1D014ABC6D000F0B4DB /* NSURL-Additions.h */,
-				0056D1D114ABC6D000F0B4DB /* NSURL-Additions.m */,
 				00F7134514ABBFE500DDEA0F /* UIViewController-Cas.h */,
 				00F7134614ABBFE500DDEA0F /* UIViewController-Cas.m */,
 				0039D47414ABB20B00DB9B7A /* NUAppDelegate.h */,
@@ -1060,7 +1055,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0056D1D414ABC6E500F0B4DB /* NSURL-Additions.m in Sources */,
 				0056D1C514ABC3A400F0B4DB /* UIViewController-Cas.m in Sources */,
 				0039D47214ABB20B00DB9B7A /* main.m in Sources */,
 				0039D47614ABB20B00DB9B7A /* NUAppDelegate.m in Sources */,
