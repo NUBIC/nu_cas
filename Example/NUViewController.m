@@ -14,6 +14,7 @@
 @synthesize stepOneStatus = _stepOneStatus;
 @synthesize stepTwoStatus = _stepTwoStatus;
 @synthesize stepThreeStatus = _stepThreeStatus;
+@synthesize ticket = _ticket;
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -59,7 +60,32 @@
     CasLoginVC* clc = [[CasLoginVC alloc] init];
     clc.delegate = self;
     [self presentViewController:clc animated:YES completion:nil];
+}
 
+- (IBAction)validate {
+    [self.ticket present];
+    
+    if (self.ticket.ok) {
+        self.stepTwoStatus.text = 
+            [NSString stringWithFormat:@"Successfully validated service ticket:\nprincipal= %@\npgt= %@", self.ticket.principal, self.ticket.pgt];
+    } else {
+        self.stepTwoStatus.text = 
+            [NSString stringWithFormat:@"Failed to validate service ticket: %@", self.ticket.message];
+    }
+}
+
+- (IBAction)obtainProxyTicket {
+    CasConfiguration* conf = [CasConfiguration new];
+    CasClient* client = [[CasClient alloc] initWithConfiguration:conf];
+    CasProxyTicket* pt = [client proxyTicket:NULL serviceURL:@"http://targetService.dev/foo" proxyGrantingTicket:self.ticket.pgt];
+    
+    if ([pt reify]) {
+        self.stepThreeStatus.text = 
+            [NSString stringWithFormat:@"Successfully obtained proxy ticket:\nproxy ticket= %@", pt.proxyTicket];
+    } else {
+        self.stepThreeStatus.text =
+            [NSString stringWithFormat:@"Failed to obtained proxy ticket: %@", pt.message];
+    }
 }
 
 //- (IBAction)va:(id)sender
@@ -67,6 +93,7 @@
 #pragma mark - Cas Methods
 
 - (void)successfullyObtainedServiceTicket:(CasServiceTicket*)serviceTicket {
+    self.ticket = serviceTicket;
     self.stepOneStatus.text = @"Successful obtained service ticket";
     [self dismissViewControllerAnimated:YES completion:NULL];
 }

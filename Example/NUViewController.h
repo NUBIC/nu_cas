@@ -17,6 +17,8 @@
     IBOutlet UILabel* _stepTwoStatus;
     
     IBOutlet UILabel* _stepThreeStatus;
+    
+    CasServiceTicket* _ticket;
 }
 
 #pragma mark - properties
@@ -27,9 +29,15 @@
 
 @property(nonatomic,retain) UILabel* stepThreeStatus;
 
+@property(nonatomic,retain) CasServiceTicket* ticket;
+
 #pragma mark - methods
 
 - (IBAction)login;
+
+- (IBAction)validate;
+
+- (IBAction)obtainProxyTicket;
 
 - (void)successfullyObtainedServiceTicket:(CasServiceTicket*)serviceTicket;
 
