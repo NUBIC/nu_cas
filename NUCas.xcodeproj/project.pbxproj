@@ -191,6 +191,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0023681614B2294900F575C3 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		0023681714B2295A00F575C3 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		0023681814B2296500F575C3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0039D31814ABA99700DB9B7A /* libNUCas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNUCas.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0039D32414ABA9CE00DB9B7A /* NUCas-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NUCas-Prefix.pch"; sourceTree = "<group>"; };
 		0039D33514ABB05A00DB9B7A /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
@@ -478,6 +481,7 @@
 		0039D33214ABB05A00DB9B7A /* OpenSSL */ = {
 			isa = PBXGroup;
 			children = (
+				0023681814B2296500F575C3 /* LICENSE */,
 				0039D33314ABB05A00DB9B7A /* Headers */,
 				0039D37D14ABB05A00DB9B7A /* libcrypto.a */,
 				0039D37E14ABB05A00DB9B7A /* libssl.a */,
@@ -575,6 +579,7 @@
 		0039D3C914ABB06300DB9B7A /* cURL */ = {
 			isa = PBXGroup;
 			children = (
+				0023681714B2295A00F575C3 /* COPYING */,
 				0039D3CA14ABB06300DB9B7A /* Headers */,
 				0039D3D614ABB06300DB9B7A /* libcurl.a */,
 			);
@@ -626,6 +631,7 @@
 		0039D3E814ABB08300DB9B7A /* libxml2 */ = {
 			isa = PBXGroup;
 			children = (
+				0023681614B2294900F575C3 /* COPYING */,
 				0039D3E914ABB08300DB9B7A /* Headers */,
 				0039D41B14ABB08300DB9B7A /* libxml2.a */,
 			);
