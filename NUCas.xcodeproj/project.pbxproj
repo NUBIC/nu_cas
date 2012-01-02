@@ -160,7 +160,6 @@
 		0039D47614ABB20B00DB9B7A /* NUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0039D47514ABB20B00DB9B7A /* NUAppDelegate.m */; };
 		0039D47914ABB20B00DB9B7A /* NUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0039D47814ABB20B00DB9B7A /* NUViewController.m */; };
 		0039D47C14ABB20B00DB9B7A /* NUViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0039D47A14ABB20B00DB9B7A /* NUViewController.xib */; };
-		0056D1C514ABC3A400F0B4DB /* UIViewController-Cas.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F7134614ABBFE500DDEA0F /* UIViewController-Cas.m */; };
 		0056D1C914ABC61E00F0B4DB /* libNUCas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0039D31814ABA99700DB9B7A /* libNUCas.a */; };
 		0056D1CD14ABC67F00F0B4DB /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0056D1CC14ABC67F00F0B4DB /* libiconv.dylib */; };
 		0056D1CF14ABC69200F0B4DB /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0056D1CE14ABC69200F0B4DB /* libz.dylib */; };
@@ -369,8 +368,6 @@
 		00B270F014AD02F600F04BF7 /* CasLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CasLoginVC.m; sourceTree = "<group>"; };
 		00C23C7614AE505B00E82C5B /* URLHelperTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLHelperTest.h; sourceTree = "<group>"; };
 		00C23C7714AE505B00E82C5B /* URLHelperTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLHelperTest.m; sourceTree = "<group>"; };
-		00F7134514ABBFE500DDEA0F /* UIViewController-Cas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController-Cas.h"; sourceTree = "<group>"; };
-		00F7134614ABBFE500DDEA0F /* UIViewController-Cas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController-Cas.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -721,8 +718,6 @@
 		0039D46B14ABB20B00DB9B7A /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				00F7134514ABBFE500DDEA0F /* UIViewController-Cas.h */,
-				00F7134614ABBFE500DDEA0F /* UIViewController-Cas.m */,
 				0039D47414ABB20B00DB9B7A /* NUAppDelegate.h */,
 				0039D47514ABB20B00DB9B7A /* NUAppDelegate.m */,
 				0039D47714ABB20B00DB9B7A /* NUViewController.h */,
@@ -1055,7 +1050,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0056D1C514ABC3A400F0B4DB /* UIViewController-Cas.m in Sources */,
 				0039D47214ABB20B00DB9B7A /* main.m in Sources */,
 				0039D47614ABB20B00DB9B7A /* NUAppDelegate.m in Sources */,
 				0039D47914ABB20B00DB9B7A /* NUViewController.m in Sources */,
