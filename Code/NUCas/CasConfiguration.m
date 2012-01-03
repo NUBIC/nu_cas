@@ -3,7 +3,7 @@
 //  UIWebViewHttpStatusCodeHandling
 //
 //  Created by John Dzak on 11/1/11.
-//  Copyright 2011 SpinningSphere Labs. All rights reserved.
+//  Copyright 2011 Northwestern University. All rights reserved.
 //
 
 #import "CasConfiguration.h"
