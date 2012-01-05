@@ -28,6 +28,7 @@
         NSString* path = [[NSBundle mainBundle] pathForResource:@"NUCas" ofType:@"plist"];
 
         if (!path) {
+            NSLog(@"NUCas.plist not found at %@/NUCas.plist", [NSBundle mainBundle]);
             @throw([NSException 
                     exceptionWithName:@"CasConfigurationNotFound" 
                     reason:[NSString stringWithFormat:@"NUCas.plist not found at %@/NUCas.plist", [NSBundle mainBundle]] 
