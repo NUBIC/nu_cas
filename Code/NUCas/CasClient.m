@@ -40,6 +40,13 @@
     return self;
 }
 
+- (NSString*) loginURLWithServiceURL:(NSString*)serviceURL renew:(BOOL)renew {
+    NSDictionary *params = [[NSDictionary alloc] initWithObjectsAndKeys:
+                            serviceURL, @"service", 
+                            renew ? @"true" : @"false", @"renew", nil];
+    return [URLHelper url:self.config.casURL appendPathComponent:@"login" withParams:params];
+}
+
 - (NSString*) serviceValidateURL {
     return [URLHelper url:self.config.casURL appendPathComponent:@"serviceValidate"];
 }

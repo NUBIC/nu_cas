@@ -29,6 +29,8 @@
 
 - (id)initWithConfiguration:(CasConfiguration*)config;
 
+- (NSString*) loginURLWithServiceURL:(NSString*)serviceURL renew:(BOOL)renew;
+
 - (NSString*) serviceValidateURL;
 
 - (CasServiceTicket*) serviceTicket:(NSString*)ticket serviceURL:(NSString*)serviceURL;

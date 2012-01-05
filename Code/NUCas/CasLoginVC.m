@@ -15,17 +15,24 @@
 @implementation CasLoginVC
 
 @synthesize delegate = _delegate;
+@synthesize client = _client;
+
+- (id) init {
+    if (self = [super init]) {
+        CasConfiguration* conf = [[CasConfiguration alloc] init];
+
+        self.client = [[CasClient alloc] initWithConfiguration:conf];
+    }
+    return self;
+}
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
 	return YES;
 }
 
 - (NSURL*) loginURL {
-    NSDictionary *params = [[NSDictionary alloc] initWithObjectsAndKeys:
-                            [self serviceURL], @"service", 
-                            @"true", @"renew", nil];
-    
-    return [[NSURL alloc] initWithString:[URLHelper url:@"http://cas.dev" appendPathComponent:@"login" withParams:params]];
+    NSString* login = [self.client loginURLWithServiceURL:[self serviceURL] renew:TRUE];
+    return [[NSURL alloc] initWithString:login];
 }
 
 - (NSString*) serviceURL {

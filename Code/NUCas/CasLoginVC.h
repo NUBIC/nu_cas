@@ -9,13 +9,18 @@
 #import <UIKit/UIKit.h>
 #import "CasLoginDelegate.h"
 
+@class CasClient;
+
 @interface CasLoginVC : UIViewController<UIWebViewDelegate> {
     id<CasLoginDelegate> _delegate;
+    CasClient* _client;
 }
 
 #pragma mark - properties
 
 @property(nonatomic,retain) id<CasLoginDelegate> delegate;
+
+@property(nonatomic,retain) CasClient* client;
 
 #pragma mark - methods
 
