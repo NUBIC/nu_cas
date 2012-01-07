@@ -71,8 +71,8 @@
 
 #if !(defined(VMS) || defined(__VMS)) /* VMS uses logical names instead */
 #if defined(HEADER_CRYPTLIB_H) && !defined(OPENSSLDIR)
-#define ENGINESDIR "/Users/johndzak/Code/cURL-SSL-for-iOS/OpenSSL/bin/iPhoneSimulator4.3.sdk/lib/engines"
-#define OPENSSLDIR "/Users/johndzak/Code/cURL-SSL-for-iOS/OpenSSL/bin/iPhoneSimulator4.3.sdk"
+#define ENGINESDIR "./lib/engines"
+#define OPENSSLDIR "."
 #endif
 #endif
 
