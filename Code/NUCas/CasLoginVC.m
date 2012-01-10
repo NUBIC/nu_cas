@@ -68,6 +68,34 @@
     return YES;
 }
 
+- (UIView*) toolbarWithFrame:(CGRect)frame {
+    UIToolbar* t = [[UIToolbar alloc] initWithFrame:frame];
+    t.autoresizingMask = UIViewAutoresizingFlexibleWidth;
+    
+    UIBarButtonItem* cancel = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(cancel)];
+    
+    UIBarButtonItem* flexItem1 = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:NULL action:NULL];
+    
+    UILabel* titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0.0 , 11.0f, 200.0f, 21.0f)];
+    [titleLabel setFont:[UIFont fontWithName:@"Helvetica-Bold" size:18]];
+    [titleLabel setBackgroundColor:[UIColor clearColor]];
+    [titleLabel setTextColor:[UIColor colorWithRed:113.0/255.0 green:120.0/255.0 blue:128.0/255.0 alpha:1.0]];
+    [titleLabel setText:@"Login"];
+    [titleLabel setTextAlignment:UITextAlignmentCenter];
+    UIBarButtonItem *toolBarTitle = [[UIBarButtonItem alloc] initWithCustomView:titleLabel];
+    
+    UIBarButtonItem* flexItem2 = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:NULL action:NULL];
+    
+    NSArray* a = [[NSArray alloc] initWithObjects:cancel, flexItem1, toolBarTitle, flexItem2, nil];
+    [t setItems:a];
+    return t;
+}
+
+- (void) cancel {
+    [self dismissViewControllerAnimated:YES completion:NULL];
+}
+
+
 #pragma mark - UIController methods
 
 - (void)didReceiveMemoryWarning
@@ -84,7 +112,10 @@
 {
     [super viewDidLoad];
 
-    UIWebView *wv = [[UIWebView alloc] initWithFrame:self.view.frame];
+    UIView* toolbar = [self toolbarWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 47)];
+    [self.view addSubview:toolbar];
+   
+    UIWebView *wv = [[UIWebView alloc] initWithFrame:CGRectMake(0, 44, self.view.frame.size.width, self.view.frame.size.height)];
     [wv setAutoresizingMask:UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleRightMargin];
     wv.delegate = self;
     [self.view addSubview:wv];

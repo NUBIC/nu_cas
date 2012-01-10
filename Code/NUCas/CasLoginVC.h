@@ -28,4 +28,6 @@
 
 - (NSString*) serviceURL;
 
+- (UIView*) toolbarWithFrame:(CGRect)frame;
+
 @end
