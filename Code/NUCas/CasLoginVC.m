@@ -85,6 +85,7 @@
     [super viewDidLoad];
 
     UIWebView *wv = [[UIWebView alloc] initWithFrame:self.view.frame];
+    [wv setAutoresizingMask:UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleRightMargin];
     wv.delegate = self;
     [self.view addSubview:wv];
     
