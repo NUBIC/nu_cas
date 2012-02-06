@@ -33,8 +33,12 @@
         self.cas = cas_new();
         self.config = c;
         
+        NSString *path = [NSString stringWithFormat:@"%@", [[NSBundle mainBundle] bundlePath] ];
+        NSLog(@"path to cacert: %@", path);
+        NSString* cacert = [NSBundle pathForResource:@"cacert" ofType:@"pem" inDirectory:path];
+        NSLog(@"cacert: %@", cacert);
         cas_set_ssl_validate_server([self cas],1);
-        cas_set_ssl_ca([self cas],"/Users/johndzak/cacerts/cacert.pem");
+        cas_set_ssl_ca([self cas], [cacert UTF8String]);
     }
     
     return self;

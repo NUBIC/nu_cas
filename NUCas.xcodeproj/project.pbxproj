@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0010D18014DCA6A600917CD1 /* cacert.pem in Resources */ = {isa = PBXBuildFile; fileRef = 0010D17F14DCA66C00917CD1 /* cacert.pem */; };
 		0039D32714ABA9CE00DB9B7A /* NUCas-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 0039D32414ABA9CE00DB9B7A /* NUCas-Prefix.pch */; };
 		0039D37F14ABB05A00DB9B7A /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = 0039D33514ABB05A00DB9B7A /* aes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0039D38014ABB05A00DB9B7A /* asn1.h in Headers */ = {isa = PBXBuildFile; fileRef = 0039D33614ABB05A00DB9B7A /* asn1.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -190,10 +191,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0010D17D14DCA2B000917CD1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0010D17F14DCA66C00917CD1 /* cacert.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cacert.pem; sourceTree = "<group>"; };
 		0023681614B2294900F575C3 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
 		0023681714B2295A00F575C3 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
 		0023681814B2296500F575C3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0031311A14E03C4D00C0D0B1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		0031311C14E03D1800C0D0B1 /* NUCas.plist-sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NUCas.plist-sample"; sourceTree = "<group>"; };
 		0039D31814ABA99700DB9B7A /* libNUCas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNUCas.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0039D32414ABA9CE00DB9B7A /* NUCas-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NUCas-Prefix.pch"; sourceTree = "<group>"; };
 		0039D33514ABB05A00DB9B7A /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
@@ -418,6 +434,7 @@
 		0039D2D414ABA89600DB9B7A = {
 			isa = PBXGroup;
 			children = (
+				0031311A14E03C4D00C0D0B1 /* README.md */,
 				0056D1EF14ABCAFC00F0B4DB /* Tests */,
 				0039D33114ABB02800DB9B7A /* Vendor */,
 				0039D30414ABA90A00DB9B7A /* Code */,
@@ -724,6 +741,8 @@
 		0039D46B14ABB20B00DB9B7A /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				0031311C14E03D1800C0D0B1 /* NUCas.plist-sample */,
+				0010D17F14DCA66C00917CD1 /* cacert.pem */,
 				0039D47414ABB20B00DB9B7A /* NUAppDelegate.h */,
 				0039D47514ABB20B00DB9B7A /* NUAppDelegate.m */,
 				0039D47714ABB20B00DB9B7A /* NUViewController.h */,
@@ -928,6 +947,7 @@
 				0039D31614ABA99700DB9B7A /* Headers */,
 				0039D31414ABA99700DB9B7A /* Sources */,
 				0039D31514ABA99700DB9B7A /* Frameworks */,
+				0010D17D14DCA2B000917CD1 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -1007,6 +1027,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0010D18014DCA6A600917CD1 /* cacert.pem in Resources */,
 				0039D47014ABB20B00DB9B7A /* InfoPlist.strings in Resources */,
 				0039D47C14ABB20B00DB9B7A /* NUViewController.xib in Resources */,
 				006DA1A614ABDAD200A622B3 /* NUCas.plist in Resources */,
