@@ -21,11 +21,13 @@ Installation
 1. Link against NUCas:
     1. **libNUCas.a**
 1. Import the NUCas headers via `#import <NUCas.h>`
+1. Download the latest cacert.pem file and put into your project `wget http://curl.haxx.se/ca/cacert.pem`
+1. Copy NUCas.plist-sample into your project `cp NUCas.plist-sample NUCas.plist`
 1. Build the project to verify installation is successful.
 
 Credits
 -------
 
-NUCas follows the design of castanet. https://github.com/NUBIC/castanet
+NUCas's object model follows the design of castanet. https://github.com/NUBIC/castanet
 
 NUCas uses openSSL.

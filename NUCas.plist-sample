@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>cas.base.url</key>
-	<string>https://cas2.nubic.northwestern.edu/cas-staging</string>
+	<string>http://my.cas</string>
 	<key>cas.receive.url</key>
-	<string>https://cas2.nubic.northwestern.edu/cas-proxy-callback-staging/receive_pgt</string>
+	<string>http://my.cas/receive_pgt</string>
 	<key>cas.retrieve.url</key>
-	<string>https://cas2.nubic.northwestern.edu/cas-proxy-callback-staging/retrieve_pgt</string>
+	<string>http://my.cas/retrieve_pgt</string>
 </dict>
 </plist>
