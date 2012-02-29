@@ -209,7 +209,6 @@
 		0023681714B2295A00F575C3 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
 		0023681814B2296500F575C3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0031311A14E03C4D00C0D0B1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		0031311C14E03D1800C0D0B1 /* NUCas.plist-sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NUCas.plist-sample"; sourceTree = "<group>"; };
 		0039D31814ABA99700DB9B7A /* libNUCas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNUCas.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0039D32414ABA9CE00DB9B7A /* NUCas-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NUCas-Prefix.pch"; sourceTree = "<group>"; };
 		0039D33514ABB05A00DB9B7A /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
@@ -380,6 +379,7 @@
 		006DA1A514ABDAD200A622B3 /* NUCas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NUCas.plist; sourceTree = "<group>"; };
 		006DA1A714ACC6A200A622B3 /* URLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLHelper.h; sourceTree = "<group>"; };
 		006DA1A814ACC6A200A622B3 /* URLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLHelper.m; sourceTree = "<group>"; };
+		00751C8C14FEE06000445351 /* NUCas.plist-sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "NUCas.plist-sample"; path = "../ncs_navigator_field/NCSMobile/NUCas.plist-sample"; sourceTree = "<group>"; };
 		00B270E814ACCF5000F04BF7 /* CasConfigurationTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CasConfigurationTest.h; sourceTree = "<group>"; };
 		00B270E914ACCF5000F04BF7 /* CasConfigurationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CasConfigurationTest.m; sourceTree = "<group>"; };
 		00B270ED14AD013B00F04BF7 /* CasLoginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CasLoginDelegate.h; sourceTree = "<group>"; };
@@ -434,6 +434,7 @@
 		0039D2D414ABA89600DB9B7A = {
 			isa = PBXGroup;
 			children = (
+				00751C8C14FEE06000445351 /* NUCas.plist-sample */,
 				0031311A14E03C4D00C0D0B1 /* README.md */,
 				0056D1EF14ABCAFC00F0B4DB /* Tests */,
 				0039D33114ABB02800DB9B7A /* Vendor */,
@@ -741,7 +742,6 @@
 		0039D46B14ABB20B00DB9B7A /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				0031311C14E03D1800C0D0B1 /* NUCas.plist-sample */,
 				0010D17F14DCA66C00917CD1 /* cacert.pem */,
 				0039D47414ABB20B00DB9B7A /* NUAppDelegate.h */,
 				0039D47514ABB20B00DB9B7A /* NUAppDelegate.m */,
