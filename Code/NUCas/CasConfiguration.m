@@ -52,4 +52,15 @@
     return self;
 }
 
+- (id)initWithCasURL:(NSString*)casURL receiveURL:(NSString*)receiveURL retrieveURL:(NSString*)retrieveURL {
+    self = [super init];
+    if (self) {
+        self.casURL = casURL;
+        self.receiveURL = receiveURL;
+        self.retrieveURL = retrieveURL;
+    }
+    
+    return self;
+}
+
 @end

@@ -22,4 +22,7 @@
 
 - (id)initWithCasURL:(NSString*)casURL;
 
+- (id)initWithCasURL:(NSString*)casURL receiveURL:(NSString*)receiveURL retrieveURL:(NSString*)retrieveURL;
+
+
 @end
