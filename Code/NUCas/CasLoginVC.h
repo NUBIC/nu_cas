@@ -10,6 +10,7 @@
 #import "CasLoginDelegate.h"
 
 @class CasClient;
+@class CasConfiguration;
 
 @interface CasLoginVC : UIViewController<UIWebViewDelegate> {
     id<CasLoginDelegate> _delegate;
@@ -23,6 +24,8 @@
 @property(nonatomic,retain) CasClient* client;
 
 #pragma mark - methods
+
+- (id) initWithCasConfiguration:(CasConfiguration*)conf;
 
 - (NSURL*) loginURL;
 
