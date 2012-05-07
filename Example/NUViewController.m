@@ -88,8 +88,6 @@
     }
 }
 
-//- (IBAction)va:(id)sender
-
 #pragma mark - Cas Methods
 
 - (void)successfullyObtainedServiceTicket:(CasServiceTicket*)serviceTicket {

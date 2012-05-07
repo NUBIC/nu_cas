@@ -26,6 +26,13 @@
     return self;
 }
 
+- (id) initWithCasConfiguration:(CasConfiguration*)conf {
+    if (self = [super init]) {
+        self.client = [[CasClient alloc] initWithConfiguration:conf];
+    }
+    return self;
+}
+
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
 	return YES;
 }
@@ -51,12 +58,8 @@
         NSString* ticketStr = [URLHelper valueForKey:@"ticket" inURL:[[request URL] absoluteString]];
         
         if (ticketStr) {
-    
-            CasConfiguration* conf = [[CasConfiguration alloc] init];
             
-            CasClient* client = [[CasClient alloc] initWithConfiguration:conf];
-            
-            CasServiceTicket* ticket = [client serviceTicket:ticketStr serviceURL:[self serviceURL]];
+            CasServiceTicket* ticket = [self.client serviceTicket:ticketStr serviceURL:[self serviceURL]];
             
             [self.delegate successfullyObtainedServiceTicket:ticket];
             

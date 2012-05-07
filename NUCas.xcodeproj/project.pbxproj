@@ -379,7 +379,6 @@
 		006DA1A514ABDAD200A622B3 /* NUCas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NUCas.plist; sourceTree = "<group>"; };
 		006DA1A714ACC6A200A622B3 /* URLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLHelper.h; sourceTree = "<group>"; };
 		006DA1A814ACC6A200A622B3 /* URLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLHelper.m; sourceTree = "<group>"; };
-		00751C8C14FEE06000445351 /* NUCas.plist-sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "NUCas.plist-sample"; path = "../ncs_navigator_field/NCSMobile/NUCas.plist-sample"; sourceTree = "<group>"; };
 		00B270E814ACCF5000F04BF7 /* CasConfigurationTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CasConfigurationTest.h; sourceTree = "<group>"; };
 		00B270E914ACCF5000F04BF7 /* CasConfigurationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CasConfigurationTest.m; sourceTree = "<group>"; };
 		00B270ED14AD013B00F04BF7 /* CasLoginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CasLoginDelegate.h; sourceTree = "<group>"; };
@@ -387,6 +386,7 @@
 		00B270F014AD02F600F04BF7 /* CasLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CasLoginVC.m; sourceTree = "<group>"; };
 		00C23C7614AE505B00E82C5B /* URLHelperTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLHelperTest.h; sourceTree = "<group>"; };
 		00C23C7714AE505B00E82C5B /* URLHelperTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLHelperTest.m; sourceTree = "<group>"; };
+		00DE9996155822A100C3A0FB /* NUCas.plist-sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NUCas.plist-sample"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -434,7 +434,7 @@
 		0039D2D414ABA89600DB9B7A = {
 			isa = PBXGroup;
 			children = (
-				00751C8C14FEE06000445351 /* NUCas.plist-sample */,
+				00DE9996155822A100C3A0FB /* NUCas.plist-sample */,
 				0031311A14E03C4D00C0D0B1 /* README.md */,
 				0056D1EF14ABCAFC00F0B4DB /* Tests */,
 				0039D33114ABB02800DB9B7A /* Vendor */,
