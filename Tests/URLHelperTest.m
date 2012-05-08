@@ -24,6 +24,14 @@
     STAssertEqualObjects(@"http://b.org/kirk", u, @"Wrong URL");
 }
 
+- (void)testAppendURLComponentWithNullUrl {
+    STAssertThrows([URLHelper url:NULL appendPathComponent:@"kirk"], @"Should throw exception");
+}
+
+- (void)testAppendURLComponentWithNullPathComponent {
+    STAssertThrows([URLHelper url:@"http://b.org" appendPathComponent:NULL], @"Should throw exception");
+}
+
 - (void)testAppendPathComponentWithParams {
     NSDictionary* params = [NSDictionary dictionaryWithObjectsAndKeys:@"captain", @"role", @"yellow", @"shirt", nil];
     NSString* u = [URLHelper url:@"http://b.org" appendPathComponent:@"kirk" withParams:params];
