@@ -37,7 +37,7 @@
     const char* pgt_c = [_proxyGrantingTicket UTF8String];
     
     @try {
-        CAS_CODE code = cas_cas2_proxy(_cas, proxy_c, service_c, pgt_c);
+        CAS_CODE code = cas_cas2_proxy(_cas, (char *)proxy_c, (char *)service_c, (char *)pgt_c);
         if (code == CAS2_PROXY_SUCCESS) {
             char* pt = cas_get_proxy_ticket(_cas);
             if (pt != NULL) {

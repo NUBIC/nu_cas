@@ -82,6 +82,9 @@ char* cas_get_pgtiou( CAS* cas );
 char* cas_get_pgt( CAS* cas );
 char* cas_get_proxy_ticket( CAS* cas);
 
+void cas_set_ssl_ca( CAS* cas, const char* capath );
+void cas_set_ssl_validate_server( CAS* cas, int verify);
+
 #endif
 
 #define DEBUG 1

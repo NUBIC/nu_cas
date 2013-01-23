@@ -41,7 +41,7 @@
         cas_set_ssl_ca([self cas], [cacert UTF8String]);
     }
     
-    return self;
+    return self; 
 }
 
 - (NSString*) loginURLWithServiceURL:(NSString*)serviceURL renew:(BOOL)renew {
