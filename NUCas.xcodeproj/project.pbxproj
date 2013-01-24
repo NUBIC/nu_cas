@@ -179,6 +179,8 @@
 		00B270F214AD02F600F04BF7 /* CasLoginVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B270EF14AD02F600F04BF7 /* CasLoginVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00B270F314AD02F600F04BF7 /* CasLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B270F014AD02F600F04BF7 /* CasLoginVC.m */; };
 		00C23C7814AE505B00E82C5B /* URLHelperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C23C7714AE505B00E82C5B /* URLHelperTest.m */; };
+		16D2345216B1939C00D625BE /* NSString+Escaped.h in Headers */ = {isa = PBXBuildFile; fileRef = 16D2345016B1939C00D625BE /* NSString+Escaped.h */; };
+		16D2345316B1939C00D625BE /* NSString+Escaped.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D2345116B1939C00D625BE /* NSString+Escaped.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -387,6 +389,8 @@
 		00C23C7614AE505B00E82C5B /* URLHelperTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLHelperTest.h; sourceTree = "<group>"; };
 		00C23C7714AE505B00E82C5B /* URLHelperTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLHelperTest.m; sourceTree = "<group>"; };
 		00DE9996155822A100C3A0FB /* NUCas.plist-sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "NUCas.plist-sample"; sourceTree = "<group>"; };
+		16D2345016B1939C00D625BE /* NSString+Escaped.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Escaped.h"; sourceTree = "<group>"; };
+		16D2345116B1939C00D625BE /* NSString+Escaped.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Escaped.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -467,6 +471,7 @@
 		0039D32314ABA9CE00DB9B7A /* NUCas */ = {
 			isa = PBXGroup;
 			children = (
+				16D2344E16B1937700D625BE /* Categories */,
 				0039D45814ABB0CB00DB9B7A /* CasProxyTicket.h */,
 				0039D45914ABB0CB00DB9B7A /* CasProxyTicket.m */,
 				0039D44C14ABB0C000DB9B7A /* CasClient.h */,
@@ -788,6 +793,15 @@
 			path = Support;
 			sourceTree = "<group>";
 		};
+		16D2344E16B1937700D625BE /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				16D2345016B1939C00D625BE /* NSString+Escaped.h */,
+				16D2345116B1939C00D625BE /* NSString+Escaped.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -934,6 +948,7 @@
 				00B270EE14AD013B00F04BF7 /* CasLoginDelegate.h in Headers */,
 				00B270F214AD02F600F04BF7 /* CasLoginVC.h in Headers */,
 				0039D32714ABA9CE00DB9B7A /* NUCas-Prefix.pch in Headers */,
+				16D2345216B1939C00D625BE /* NSString+Escaped.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1070,6 +1085,7 @@
 				0039D45B14ABB0CB00DB9B7A /* CasProxyTicket.m in Sources */,
 				006DA1AA14ACC6A200A622B3 /* URLHelper.m in Sources */,
 				00B270F314AD02F600F04BF7 /* CasLoginVC.m in Sources */,
+				16D2345316B1939C00D625BE /* NSString+Escaped.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

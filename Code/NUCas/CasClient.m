@@ -31,6 +31,7 @@
     if (self) {
         cas_init();
         self.cas = cas_new();
+        //TODO: fix this leak…
         self.config = c;
         
         NSString *path = [NSString stringWithFormat:@"%@", [[NSBundle mainBundle] bundlePath] ];
@@ -45,9 +46,7 @@
 }
 
 - (NSString*) loginURLWithServiceURL:(NSString*)serviceURL renew:(BOOL)renew {
-    NSDictionary *params = [[NSDictionary alloc] initWithObjectsAndKeys:
-                            serviceURL, @"service", 
-                            renew ? @"true" : @"false", @"renew", nil];
+    NSDictionary *params = @{@"service" : serviceURL , @"renew" : (renew == YES) ? @"true" : @"false"};
     return [URLHelper url:self.config.casURL appendPathComponent:@"login" withParams:params];
 }
 
