@@ -51,8 +51,7 @@
     const char* retrieve_c = [_retrieveURL UTF8String];
 
     @try {
-        CAS_CODE code = cas_cas2_serviceValidate_proxyTicketing(_cas, 
-                   validate_c, service_c, ticket_c, 0,receive_c, retrieve_c);
+        CAS_CODE code = cas_cas2_serviceValidate_proxyTicketing(_cas, (char *)validate_c, (char *)service_c, (char *)ticket_c, 0, (char *)receive_c, (char *)retrieve_c);
 
         if (code == CAS_VALIDATION_SUCCESS) {
             char* p = cas_get_principal(_cas);

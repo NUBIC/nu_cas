@@ -14,8 +14,6 @@
 
 + (NSString*) url:(NSString*)url appendPathComponent:(NSString*)pathComponent withParams:(NSDictionary*)params;
     
-+ (NSString*) encodeString:(NSString*)raw;
-
 + (NSString*) stripQueryFromURL:(NSString*)url;
 
 + (NSString*) valueForKey:(NSString*)key inURL:(NSString*)url;

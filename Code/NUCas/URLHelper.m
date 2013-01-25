@@ -8,6 +8,8 @@
 
 #import "URLHelper.h"
 
+#import "NSString+Escaped.h"
+
 @implementation URLHelper
 + (NSString*) url:(NSString*)url appendPathComponent:(NSString*)pathComponent {
     NSURL* base = [[NSURL alloc] initWithString:url];
@@ -19,8 +21,8 @@
 
     NSMutableString* query = [NSMutableString new];
     for (NSString* key in params) {
-        NSString* k = [self encodeString:key];
-        NSString* v = [self encodeString:[params objectForKey:key]];
+        NSString* k = [key stringByAddingPercentEscapes];
+        NSString* v = [[params objectForKey:key] stringByAddingPercentEscapes];
         if ([query length] > 0) {
             [query appendString:@"&"];
         }
@@ -58,9 +60,4 @@
     return [dict objectForKey:key];
 }
 
-// Escape reserved characters in rfc3986
-+ (NSString*) encodeString:(NSString*)raw {
-    return (__bridge NSString*)
-        CFURLCreateStringByAddingPercentEscapes(NULL, (__bridge CFStringRef)raw, NULL, (__bridge CFStringRef)@":/?#[]@!$&'()*+,;=", kCFStringEncodingUTF8);
-}
 @end
