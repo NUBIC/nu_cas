@@ -14,7 +14,6 @@
 
 @implementation CasLoginVC
 
-@synthesize delegate = _delegate;
 @synthesize client = _client;
 
 - (id) init {
@@ -61,7 +60,7 @@
             
             CasServiceTicket* ticket = [self.client serviceTicket:ticketStr serviceURL:[self serviceURL]];
             
-            [self.delegate successfullyObtainedServiceTicket:ticket];
+            [self.casLoginDelegate casLoginVC:self didSuccessfullyObtainedServiceTicket:ticket];
             
             return NO;
         }
@@ -95,7 +94,7 @@
 }
 
 - (void) cancel {
-    [self dismissViewControllerAnimated:YES completion:NULL];
+    [self.casLoginDelegate casLoginVCDidCancel:self];
 }
 
 

@@ -12,6 +12,8 @@
 @class CasClient;
 @class CasConfiguration;
 
+@protocol CasLoginVCDelegate;
+
 @interface CasLoginVC : UIViewController<UIWebViewDelegate> {
     id<CasLoginDelegate> _delegate;
     CasClient* _client;
@@ -19,7 +21,7 @@
 
 #pragma mark - properties
 
-@property(nonatomic,retain) id<CasLoginDelegate> delegate;
+@property(nonatomic,retain) id<CasLoginVCDelegate> casLoginDelegate;
 
 @property(nonatomic,retain) CasClient* client;
 
@@ -32,5 +34,12 @@
 - (NSString*) serviceURL;
 
 - (UIView*) toolbarWithFrame:(CGRect)frame;
+
+@end
+
+@protocol CasLoginVCDelegate <NSObject>
+
+-(void)casLoginVC:(CasLoginVC *)casLoginVC didSuccessfullyObtainedServiceTicket:(CasServiceTicket *)serviceTicket;
+-(void)casLoginVCDidCancel:(CasLoginVC *)casLoginVC;
 
 @end
