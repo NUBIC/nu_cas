@@ -14,6 +14,7 @@ Installation
 1. Add NUCas to your project workspace (File -> Add Files to <Your Project> -> Select **NUCas.xcodeproj**)
 1. Open build settings editor for your project
 1. Add **Other Linker Flags** for `-ObjC -all_load` 
+1. Add **User Header Search Paths** for `$(BUILT_PRODUCTS_DIR)` and make sure it's *recursive*
 1. Open target settings editor for the target you want to link NUCas into
 1. Link against required frameworks:
     1. **libz.dylib**
